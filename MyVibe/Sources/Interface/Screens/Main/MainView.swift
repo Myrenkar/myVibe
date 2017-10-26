@@ -9,5 +9,49 @@
 import UIKit
 
 final class MainView: View {
+
+    private(set) lazy var searchBar: UISearchBar = {
+        let searchBar = UISearchBar()
+        searchBar.translatesAutoresizingMaskIntoConstraints = false
+        searchBar.searchBarStyle = .prominent
+        searchBar.placeholder = "Search for your favorite artist"
+        return searchBar
+    }()
     
+    private(set) lazy var tableView: UITableView = {
+        let tableView = UITableView()
+        tableView.separatorStyle = .none
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+        tableView.backgroundColor = .white
+
+        /// To hide empty cells
+        tableView.tableFooterView = UIView(frame: .zero)
+        return tableView
+    }()
+
+    override func setupProperties() {
+        super.setupProperties()
+        backgroundColor = .white
+    }
+    
+    override func setupViewHierarchy() {
+        super.setupViewHierarchy()
+        [searchBar, tableView].forEach(addSubview)
+    }
+    
+    override func setupLayoutConstraints() {
+        super.setupLayoutConstraints()
+        
+        NSLayoutConstraint.activate([
+            searchBar.leadingAnchor.constraint(equalTo: leadingAnchor),
+            searchBar.trailingAnchor.constraint(equalTo: trailingAnchor),
+            searchBar.topAnchor.constraint(equalTo: topAnchor, constant: 32),
+            searchBar.heightAnchor.constraint(equalToConstant: 44),
+            
+            tableView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            tableView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            tableView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            tableView.topAnchor.constraint(equalTo: searchBar.bottomAnchor)
+        ])
+    }
 }

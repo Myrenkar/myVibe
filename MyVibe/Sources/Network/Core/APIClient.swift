@@ -12,7 +12,8 @@ protocol APIClient {
     
     /// Performs specific request
     ///
-    /// - Parameter request: APIRequest which needs to be performed
-    /// - Returns: APIResponse - tuple with data and HTTPURLResponse
-    func performRequest(request: APIRequest) -> Result<APIResponse>
+    /// - Parameters:
+    ///   - request: APIRequest which needs to be performed
+    ///   - completionHandler: callback with result of type APIResponse
+    func perform(request: APIRequest, completionHandler: @escaping (Result<APIResponse>) -> ())
 }

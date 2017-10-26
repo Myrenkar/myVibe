@@ -1,5 +1,6 @@
 #include "../../Carthage/Checkouts/xcconfigs/Platforms/iOS.xcconfig"
 #include "../../Carthage/Checkouts/xcconfigs/Targets/Application.xcconfig"
+#include "Base.xcconfig"
 
 _ENVIRONMENTS = $(inherited) ENV_APP_DEMO
 _BUNDLE_NAME = MyVibe

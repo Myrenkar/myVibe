@@ -18,7 +18,9 @@ extension URLRequest {
         guard let url = URLComponents(request: request).url else {
             throw APIError.incorrectURL(url: request.path)
         }
-        self.init(url: url)
+        let stringURL = String(describing: url).removingPercentEncoding
+        let newUrl = URL(string: stringURL!)
+        self.init(url: newUrl!)
         
         httpMethod = request.method.rawValue
         allHTTPHeaderFields = [

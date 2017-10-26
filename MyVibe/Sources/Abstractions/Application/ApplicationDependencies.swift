@@ -1,8 +1,9 @@
 //
 //  ApplicationDependencies.swift
-//  SpaceOS
+//  MyVibe
 //
-//  Copyright © 2017 SpaceOS. All rights reserved.
+//  Created by Piotr Torczyński on 26/10/2017.
+//  Copyright © 2017 SmartApps. All rights reserved.
 //
 
 import Foundation

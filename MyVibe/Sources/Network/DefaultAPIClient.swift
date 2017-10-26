@@ -14,6 +14,7 @@ final class DefaultAPIClient: APIClient {
     
     private let session: URLSession
     private let autorizationController = AuthorizationController()
+    
     // MARK: Initializers
     
     /// Initializes DefaultAPIClient
@@ -23,37 +24,39 @@ final class DefaultAPIClient: APIClient {
         self.session = session
     }
     
-    func performRequest(request: APIRequest) -> Result<APIResponse> {
-        do {
-            var urlRequest = try URLRequest(request: request)
-            autorizationController.authorizeRequest(request: &urlRequest)
-            var result: Result<APIResponse>!
-            
-            let task = self.session.dataTask(with: urlRequest) { data, response, error in
-                if let error = error {
-                    if (error as NSError).code == -1009 {
-                        result = Result<APIResponse>.failure(APIError.internetConnectionUnavailable)
-                    } else {
-                        result = Result<APIResponse>.failure(error)
-                    }
-                    result = Result<APIResponse>.failure(error)
-                } else if let response = response as? HTTPURLResponse {
-                    if 200..<300 ~= response.statusCode {
-                        result = Result<APIResponse>.success(APIResponse(data: data, response: response))
-                    } else if response.statusCode == 401 {
-                        result = Result<APIResponse>.failure(APIError.unAuthorized)
-                    } else {
-                        result = Result<APIResponse>.failure(APIError.unexpectedStatusCode(statusCode: response.statusCode))
-                    }
-                } else {
-                    result = Result<APIResponse>.failure(APIError.noResponse)
-                }
-            }
-            task.resume()
-            return result
-        } catch let error {
-            return Result<APIResponse>.failure(error)
+    func perform(request: APIRequest, completionHandler: @escaping (Result<APIResponse>) -> ()) {
+        DispatchQueue.global(qos: .background).async {
+            self.send(request: request, completionHandler: completionHandler)
         }
     }
     
+    func send(request: APIRequest, completionHandler: @escaping (Result<APIResponse>) -> ()) {
+        do {
+            var urlRequest = try URLRequest(request: request)
+            autorizationController.authorizeRequest(request: &urlRequest)
+            print(String(describing: urlRequest.allHTTPHeaderFields))
+            let task = self.session.dataTask(with: urlRequest) { data, response, error in
+                if let error = error {
+                    if (error as NSError).code == -1009 {
+                        completionHandler(Result<APIResponse>.failure(APIError.internetConnectionUnavailable))
+                    } else {
+                        completionHandler(Result<APIResponse>.failure(error))
+                    }
+                } else if let response = response as? HTTPURLResponse {
+                    if 200..<300 ~= response.statusCode {
+                        completionHandler(Result<APIResponse>.success(APIResponse(data: data, response: response)))
+                    } else if response.statusCode == 401 {
+                        completionHandler(Result<APIResponse>.failure(APIError.unAuthorized))
+                    } else {
+                        completionHandler(Result<APIResponse>.failure(APIError.unexpectedStatusCode(statusCode: response.statusCode)))
+                    }
+                } else {
+                    completionHandler(Result<APIResponse>.failure(APIError.noResponse))
+                }
+            }
+            task.resume()
+        } catch let error {
+            completionHandler(Result<APIResponse>.failure(error))
+        }
+    }
 }
