@@ -21,6 +21,7 @@ extension URLComponents {
             components.host = request.service.host
             components.path = "/" + request.path
             
+            components.queryItems = request.serializeToQuery()
             return components
         }()
     }

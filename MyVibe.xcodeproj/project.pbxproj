@@ -42,6 +42,7 @@
 		73DF08131FA253800013C53A /* Foundation.String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF08121FA253800013C53A /* Foundation.String.swift */; };
 		73DF08201FA255C90013C53A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73DF081E1FA255C90013C53A /* Localizable.strings */; };
 		73DF08241FA256920013C53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DF08221FA256920013C53A /* LaunchScreen.storyboard */; };
+		73DF082E1FA262B50013C53A /* APIQueryParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF082D1FA262B50013C53A /* APIQueryParameter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		73DF081F1FA255C90013C53A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = MyVibe/Resources/Storyboards/en.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		73DF08211FA255E20013C53A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = ../Storyboards/pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		73DF08231FA256920013C53A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73DF082D1FA262B50013C53A /* APIQueryParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIQueryParameter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,6 +345,7 @@
 				73B814F91FA1FEB9006E4C23 /* APIResponse.swift */,
 				73B814F61FA1FE8E006E4C23 /* APIService.swift */,
 				73B814F41FA1FE47006E4C23 /* APIClient.swift */,
+				73DF082D1FA262B50013C53A /* APIQueryParameter.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -493,6 +496,7 @@
 				731882AC1FA20ED500D9D865 /* MainViewController.swift in Sources */,
 				731882A61FA20DD400D9D865 /* ViewController.swift in Sources */,
 				73B814F71FA1FE8F006E4C23 /* APIService.swift in Sources */,
+				73DF082E1FA262B50013C53A /* APIQueryParameter.swift in Sources */,
 				73DF080F1FA2532F0013C53A /* UIKit.UIViewController.swift in Sources */,
 				731882BF1FA21D0500D9D865 /* UIKit.UITableView.swift in Sources */,
 				73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */,

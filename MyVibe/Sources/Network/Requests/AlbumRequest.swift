@@ -10,9 +10,16 @@ import Foundation
 
 struct AlbumRequest: APIRequest {
     let albumTitle: String
+    
     init(albumTitle: String) {
         self.albumTitle = albumTitle
     }
     
-    var path: String { return "database/search?release_title=\(self.albumTitle)" }
+    var query: [String : APIQueryParameter] {
+        return [
+            "release_title" : .string(self.albumTitle)
+        ]
+    }
+    
+    var path: String { return "database/search" }
 }

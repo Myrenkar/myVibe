@@ -34,7 +34,6 @@ final class DefaultAPIClient: APIClient {
         do {
             var urlRequest = try URLRequest(request: request)
             autorizationController.authorizeRequest(request: &urlRequest)
-            print(String(describing: urlRequest.allHTTPHeaderFields))
             let task = self.session.dataTask(with: urlRequest) { data, response, error in
                 if let error = error {
                     if (error as NSError).code == -1009 {
