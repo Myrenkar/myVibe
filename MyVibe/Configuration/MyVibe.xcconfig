@@ -1,0 +1,8 @@
+#include "../../Carthage/Checkouts/xcconfigs/Platforms/iOS.xcconfig"
+#include "../../Carthage/Checkouts/xcconfigs/Targets/Application.xcconfig"
+
+_ENVIRONMENTS = $(inherited) ENV_APP_DEMO
+_BUNDLE_NAME = MyVibe
+_BUNDLE_IDENTIFIER = co.smartapps.myvibe$(__BUNDLE_IDENTIFIER_SUFFIX)
+_BUNDLE_INFOPLIST_PATH = $(SRCROOT)/MyVibe/Resources/Plists/Info.plist
+

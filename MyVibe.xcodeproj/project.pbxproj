@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */; };
+		73B67AF51FA1F4F600C47C00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67AF41FA1F4F600C47C00 /* ViewController.swift */; };
+		73B67AFA1FA1F4F600C47C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B67AF91FA1F4F600C47C00 /* Assets.xcassets */; };
+		73B67AFD1FA1F4F600C47C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B67AFB1FA1F4F600C47C00 /* LaunchScreen.storyboard */; };
+		73B67B081FA1F4F600C47C00 /* MyVibeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67B071FA1F4F600C47C00 /* MyVibeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73B67B041FA1F4F600C47C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73B67AE71FA1F4F500C47C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B67AEE1FA1F4F500C47C00;
+			remoteInfo = MyVibe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73B67AEF1FA1F4F500C47C00 /* MyVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73B67AF41FA1F4F600C47C00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73B67AF91FA1F4F600C47C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73B67AFC1FA1F4F600C47C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73B67AFE1FA1F4F600C47C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73B67B031FA1F4F600C47C00 /* MyVibe Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyVibe Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B67B071FA1F4F600C47C00 /* MyVibeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVibeTests.swift; sourceTree = "<group>"; };
+		73B67B091FA1F4F600C47C00 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		73B67B1C1FA1F76000C47C00 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Cartfile; path = ../../../../Cartfile; sourceTree = "<group>"; };
+		73B67B1D1FA1F76100C47C00 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; name = Cartfile.resolved; path = ../../../../Cartfile.resolved; sourceTree = "<group>"; };
+		73B67B1E1FA1F78800C47C00 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
+		73B67B1F1FA1F7A800C47C00 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		73B67B211FA1F7DD00C47C00 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		73B67B221FA1F7DD00C47C00 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		73B67B231FA1F83B00C47C00 /* MyVibe.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MyVibe.xcconfig; sourceTree = "<group>"; };
+		73B67B241FA1F92500C47C00 /* Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Tests.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73B67AEC1FA1F4F500C47C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B67B001FA1F4F600C47C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73B67AE61FA1F4F500C47C00 = {
+			isa = PBXGroup;
+			children = (
+				73B67AF11FA1F4F500C47C00 /* MyVibe */,
+				73B67B061FA1F4F600C47C00 /* MyVibeTests */,
+				73B67AF01FA1F4F500C47C00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73B67AF01FA1F4F500C47C00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73B67AEF1FA1F4F500C47C00 /* MyVibe.app */,
+				73B67B031FA1F4F600C47C00 /* MyVibe Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73B67AF11FA1F4F500C47C00 /* MyVibe */ = {
+			isa = PBXGroup;
+			children = (
+				73B67B141FA1F51E00C47C00 /* Configuration */,
+				73B67B131FA1F51600C47C00 /* Resources */,
+				73B67B121FA1F50E00C47C00 /* Sources */,
+			);
+			path = MyVibe;
+			sourceTree = "<group>";
+		};
+		73B67B061FA1F4F600C47C00 /* MyVibeTests */ = {
+			isa = PBXGroup;
+			children = (
+				73B67B071FA1F4F600C47C00 /* MyVibeTests.swift */,
+			);
+			path = MyVibeTests;
+			sourceTree = "<group>";
+		};
+		73B67B121FA1F50E00C47C00 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				73B67B1A1FA1F69200C47C00 /* Services */,
+				73B67B191FA1F68300C47C00 /* Interface */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		73B67B131FA1F51600C47C00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73B67B1B1FA1F6BC00C47C00 /* Storyboards */,
+				73B67B171FA1F55400C47C00 /* Others */,
+				73B67B161FA1F54B00C47C00 /* Assets */,
+				73B67B151FA1F53400C47C00 /* Plists */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		73B67B141FA1F51E00C47C00 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				73B67B1E1FA1F78800C47C00 /* App.xcconfig */,
+				73B67B1F1FA1F7A800C47C00 /* Base.xcconfig */,
+				73B67B231FA1F83B00C47C00 /* MyVibe.xcconfig */,
+				73B67B241FA1F92500C47C00 /* Tests.xcconfig */,
+				73B67B201FA1F7C200C47C00 /* Environments */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		73B67B151FA1F53400C47C00 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				73B67AFE1FA1F4F600C47C00 /* Info.plist */,
+				73B67B091FA1F4F600C47C00 /* Tests-Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		73B67B161FA1F54B00C47C00 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				73B67AF91FA1F4F600C47C00 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		73B67B171FA1F55400C47C00 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				73B67B1C1FA1F76000C47C00 /* Cartfile */,
+				73B67B1D1FA1F76100C47C00 /* Cartfile.resolved */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		73B67B181FA1F5E600C47C00 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				73B67AF41FA1F4F600C47C00 /* ViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		73B67B191FA1F68300C47C00 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				73B67B181FA1F5E600C47C00 /* Screens */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		73B67B1A1FA1F69200C47C00 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		73B67B1B1FA1F6BC00C47C00 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				73B67AFB1FA1F4F600C47C00 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		73B67B201FA1F7C200C47C00 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				73B67B221FA1F7DD00C47C00 /* Development.xcconfig */,
+				73B67B211FA1F7DD00C47C00 /* Release.xcconfig */,
+			);
+			name = Environments;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73B67AEE1FA1F4F500C47C00 /* MyVibe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B67B0C1FA1F4F600C47C00 /* Build configuration list for PBXNativeTarget "MyVibe" */;
+			buildPhases = (
+				73B67AEB1FA1F4F500C47C00 /* Sources */,
+				73B67AEC1FA1F4F500C47C00 /* Frameworks */,
+				73B67AED1FA1F4F500C47C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyVibe;
+			productName = MyVibe;
+			productReference = 73B67AEF1FA1F4F500C47C00 /* MyVibe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73B67B021FA1F4F600C47C00 /* MyVibeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B67B0F1FA1F4F600C47C00 /* Build configuration list for PBXNativeTarget "MyVibeTests" */;
+			buildPhases = (
+				73B67AFF1FA1F4F600C47C00 /* Sources */,
+				73B67B001FA1F4F600C47C00 /* Frameworks */,
+				73B67B011FA1F4F600C47C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73B67B051FA1F4F600C47C00 /* PBXTargetDependency */,
+			);
+			name = MyVibeTests;
+			productName = MyVibeTests;
+			productReference = 73B67B031FA1F4F600C47C00 /* MyVibe Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73B67AE71FA1F4F500C47C00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = SmartApps;
+				TargetAttributes = {
+					73B67AEE1FA1F4F500C47C00 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					73B67B021FA1F4F600C47C00 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 73B67AEE1FA1F4F500C47C00;
+					};
+				};
+			};
+			buildConfigurationList = 73B67AEA1FA1F4F500C47C00 /* Build configuration list for PBXProject "MyVibe" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73B67AE61FA1F4F500C47C00;
+			productRefGroup = 73B67AF01FA1F4F500C47C00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73B67AEE1FA1F4F500C47C00 /* MyVibe */,
+				73B67B021FA1F4F600C47C00 /* MyVibeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73B67AED1FA1F4F500C47C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B67AFD1FA1F4F600C47C00 /* LaunchScreen.storyboard in Resources */,
+				73B67AFA1FA1F4F600C47C00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B67B011FA1F4F600C47C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73B67AEB1FA1F4F500C47C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B67AF51FA1F4F600C47C00 /* ViewController.swift in Sources */,
+				73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B67AFF1FA1F4F600C47C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B67B081FA1F4F600C47C00 /* MyVibeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73B67B051FA1F4F600C47C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73B67AEE1FA1F4F500C47C00 /* MyVibe */;
+			targetProxy = 73B67B041FA1F4F600C47C00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73B67AFB1FA1F4F600C47C00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73B67AFC1FA1F4F600C47C00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73B67B0A1FA1F4F600C47C00 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B67B221FA1F7DD00C47C00 /* Development.xcconfig */;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		73B67B0B1FA1F4F600C47C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B67B211FA1F7DD00C47C00 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		73B67B0D1FA1F4F600C47C00 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B67B231FA1F83B00C47C00 /* MyVibe.xcconfig */;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		73B67B0E1FA1F4F600C47C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B67B231FA1F83B00C47C00 /* MyVibe.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		73B67B101FA1F4F600C47C00 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B67B241FA1F92500C47C00 /* Tests.xcconfig */;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		73B67B111FA1F4F600C47C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B67B241FA1F92500C47C00 /* Tests.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73B67AEA1FA1F4F500C47C00 /* Build configuration list for PBXProject "MyVibe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B67B0A1FA1F4F600C47C00 /* Development */,
+				73B67B0B1FA1F4F600C47C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73B67B0C1FA1F4F600C47C00 /* Build configuration list for PBXNativeTarget "MyVibe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B67B0D1FA1F4F600C47C00 /* Development */,
+				73B67B0E1FA1F4F600C47C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73B67B0F1FA1F4F600C47C00 /* Build configuration list for PBXNativeTarget "MyVibeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73B67B101FA1F4F600C47C00 /* Development */,
+				73B67B111FA1F4F600C47C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73B67AE71FA1F4F500C47C00 /* Project object */;
+}
