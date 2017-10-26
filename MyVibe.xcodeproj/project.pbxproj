@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		731882911FA20C9B00D9D865 /* AuthorizationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882901FA20C9B00D9D865 /* AuthorizationController.swift */; };
+		731882A41FA20DBC00D9D865 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882A31FA20DBC00D9D865 /* View.swift */; };
+		731882A61FA20DD400D9D865 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882A51FA20DD400D9D865 /* ViewController.swift */; };
+		731882A71FA20E5200D9D865 /* ApplicationDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882A21FA20DA100D9D865 /* ApplicationDependencies.swift */; };
+		731882A91FA20E8A00D9D865 /* ApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882A81FA20E8A00D9D865 /* ApplicationController.swift */; };
+		731882AC1FA20ED500D9D865 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882AB1FA20ED500D9D865 /* MainViewController.swift */; };
+		731882AE1FA20EEA00D9D865 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882AD1FA20EEA00D9D865 /* MainView.swift */; };
+		731882B21FA20FDA00D9D865 /* UIKit.UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882B11FA20FDA00D9D865 /* UIKit.UIView.swift */; };
 		73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */; };
-		73B67AF51FA1F4F600C47C00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67AF41FA1F4F600C47C00 /* ViewController.swift */; };
 		73B67AFA1FA1F4F600C47C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B67AF91FA1F4F600C47C00 /* Assets.xcassets */; };
 		73B67AFD1FA1F4F600C47C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B67AFB1FA1F4F600C47C00 /* LaunchScreen.storyboard */; };
 		73B67B081FA1F4F600C47C00 /* MyVibeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67B071FA1F4F600C47C00 /* MyVibeTests.swift */; };
@@ -35,9 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		731882901FA20C9B00D9D865 /* AuthorizationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationController.swift; sourceTree = "<group>"; };
+		731882A21FA20DA100D9D865 /* ApplicationDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDependencies.swift; sourceTree = "<group>"; };
+		731882A31FA20DBC00D9D865 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		731882A51FA20DD400D9D865 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		731882A81FA20E8A00D9D865 /* ApplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationController.swift; sourceTree = "<group>"; };
+		731882AB1FA20ED500D9D865 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		731882AD1FA20EEA00D9D865 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		731882B11FA20FDA00D9D865 /* UIKit.UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit.UIView.swift; sourceTree = "<group>"; };
 		73B67AEF1FA1F4F500C47C00 /* MyVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		73B67AF41FA1F4F600C47C00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		73B67AF91FA1F4F600C47C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73B67AFC1FA1F4F600C47C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73B67AFE1FA1F4F600C47C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +96,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7318828F1FA20C8C00D9D865 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				731882901FA20C9B00D9D865 /* AuthorizationController.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		731882941FA20DA100D9D865 /* Abstractions */ = {
+			isa = PBXGroup;
+			children = (
+				731882951FA20DA100D9D865 /* UIKit */,
+				731882A11FA20DA100D9D865 /* Application */,
+			);
+			path = Abstractions;
+			sourceTree = "<group>";
+		};
+		731882951FA20DA100D9D865 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				731882A31FA20DBC00D9D865 /* View.swift */,
+				731882A51FA20DD400D9D865 /* ViewController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		731882A11FA20DA100D9D865 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				731882A21FA20DA100D9D865 /* ApplicationDependencies.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		731882AA1FA20EB600D9D865 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				731882AB1FA20ED500D9D865 /* MainViewController.swift */,
+				731882AD1FA20EEA00D9D865 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		73B67AE61FA1F4F500C47C00 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +178,7 @@
 		73B67B121FA1F50E00C47C00 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				731882941FA20DA100D9D865 /* Abstractions */,
 				73B815061FA20144006E4C23 /* Extensions */,
 				73B815031FA200D3006E4C23 /* Models */,
 				73B814F01FA1FE06006E4C23 /* Network */,
@@ -182,7 +240,7 @@
 		73B67B181FA1F5E600C47C00 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				73B67AF41FA1F4F600C47C00 /* ViewController.swift */,
+				731882AA1FA20EB600D9D865 /* Main */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -199,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */,
+				731882A81FA20E8A00D9D865 /* ApplicationController.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -223,6 +282,8 @@
 		73B814F01FA1FE06006E4C23 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				7318828F1FA20C8C00D9D865 /* Authorization */,
+				73B8150B1FA206F2006E4C23 /* Requests */,
 				73B814FE1FA1FF7A006E4C23 /* Services */,
 				73B814F11FA1FE30006E4C23 /* Core */,
 				73B815011FA2009F006E4C23 /* DefaultAPIClient.swift */,
@@ -263,8 +324,16 @@
 			children = (
 				73B815081FA20157006E4C23 /* Foundation.URLComponents.swift */,
 				73B815071FA20157006E4C23 /* Foundation.URLRequest.swift */,
+				731882B11FA20FDA00D9D865 /* UIKit.UIView.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73B8150B1FA206F2006E4C23 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Requests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,18 +436,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B67AF51FA1F4F600C47C00 /* ViewController.swift in Sources */,
+				731882AC1FA20ED500D9D865 /* MainViewController.swift in Sources */,
+				731882A61FA20DD400D9D865 /* ViewController.swift in Sources */,
 				73B814F71FA1FE8F006E4C23 /* APIService.swift in Sources */,
 				73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */,
 				73B8150A1FA2016F006E4C23 /* Foundation.URLComponents.swift in Sources */,
+				731882AE1FA20EEA00D9D865 /* MainView.swift in Sources */,
 				73B814FA1FA1FEB9006E4C23 /* APIRequest.swift in Sources */,
+				731882B21FA20FDA00D9D865 /* UIKit.UIView.swift in Sources */,
 				73B815021FA2009F006E4C23 /* DefaultAPIClient.swift in Sources */,
+				731882A91FA20E8A00D9D865 /* ApplicationController.swift in Sources */,
 				73B815001FA1FFBC006E4C23 /* DiscoGSService.swift in Sources */,
 				73B815051FA200DC006E4C23 /* Result.swift in Sources */,
 				73B815091FA2016C006E4C23 /* Foundation.URLRequest.swift in Sources */,
 				73B814F51FA1FE47006E4C23 /* APIClient.swift in Sources */,
 				73B814FB1FA1FEB9006E4C23 /* APIResponse.swift in Sources */,
 				73B814FD1FA1FEFB006E4C23 /* APIError.swift in Sources */,
+				731882A41FA20DBC00D9D865 /* View.swift in Sources */,
+				731882911FA20C9B00D9D865 /* AuthorizationController.swift in Sources */,
+				731882A71FA20E5200D9D865 /* ApplicationDependencies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

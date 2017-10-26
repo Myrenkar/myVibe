@@ -14,12 +14,14 @@ import Foundation
 /// - unexpectedStatusCode: Response status code was out of accepted range
 /// - noResponse: Response was missing or not HTTP response
 /// - missingData: Data from response was missing
+/// - unAuthorized: Unathorized to see the resource
 /// - internetConnectionUnavailable: Internet connection went out
 enum APIError: Error {
     case incorrectURL(url: String)
     case unexpectedStatusCode(statusCode: Int)
     case noResponse
     case missingData
+    case unAuthorized
     case internetConnectionUnavailable
 }
 

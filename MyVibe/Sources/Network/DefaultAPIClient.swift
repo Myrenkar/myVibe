@@ -13,7 +13,7 @@ final class DefaultAPIClient: APIClient {
     // MARK: Properties
     
     private let session: URLSession
-    
+    private let autorizationController = AuthorizationController()
     // MARK: Initializers
     
     /// Initializes DefaultAPIClient
@@ -25,7 +25,8 @@ final class DefaultAPIClient: APIClient {
     
     func performRequest(request: APIRequest) -> Result<APIResponse> {
         do {
-            let urlRequest = try URLRequest(request: request)
+            var urlRequest = try URLRequest(request: request)
+            autorizationController.authorizeRequest(request: &urlRequest)
             var result: Result<APIResponse>!
             
             let task = self.session.dataTask(with: urlRequest) { data, response, error in
@@ -39,6 +40,8 @@ final class DefaultAPIClient: APIClient {
                 } else if let response = response as? HTTPURLResponse {
                     if 200..<300 ~= response.statusCode {
                         result = Result<APIResponse>.success(APIResponse(data: data, response: response))
+                    } else if response.statusCode == 401 {
+                        result = Result<APIResponse>.failure(APIError.unAuthorized)
                     } else {
                         result = Result<APIResponse>.failure(APIError.unexpectedStatusCode(statusCode: response.statusCode))
                     }
