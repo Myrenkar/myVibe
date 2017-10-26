@@ -24,7 +24,6 @@
 		731882C81FA22F0500D9D865 /* UntypedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882C71FA22F0500D9D865 /* UntypedError.swift */; };
 		73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */; };
 		73B67AFA1FA1F4F600C47C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B67AF91FA1F4F600C47C00 /* Assets.xcassets */; };
-		73B67AFD1FA1F4F600C47C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B67AFB1FA1F4F600C47C00 /* LaunchScreen.storyboard */; };
 		73B67B081FA1F4F600C47C00 /* MyVibeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67B071FA1F4F600C47C00 /* MyVibeTests.swift */; };
 		73B814F51FA1FE47006E4C23 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B814F41FA1FE47006E4C23 /* APIClient.swift */; };
 		73B814F71FA1FE8F006E4C23 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B814F61FA1FE8E006E4C23 /* APIService.swift */; };
@@ -41,6 +40,8 @@
 		73DF080F1FA2532F0013C53A /* UIKit.UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF080E1FA2532F0013C53A /* UIKit.UIViewController.swift */; };
 		73DF08111FA2534F0013C53A /* UIKit.UIAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF08101FA2534F0013C53A /* UIKit.UIAlertAction.swift */; };
 		73DF08131FA253800013C53A /* Foundation.String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF08121FA253800013C53A /* Foundation.String.swift */; };
+		73DF08201FA255C90013C53A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73DF081E1FA255C90013C53A /* Localizable.strings */; };
+		73DF08241FA256920013C53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DF08221FA256920013C53A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,13 +73,10 @@
 		73B67AEF1FA1F4F500C47C00 /* MyVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73B67AF91FA1F4F600C47C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		73B67AFC1FA1F4F600C47C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73B67AFE1FA1F4F600C47C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73B67B031FA1F4F600C47C00 /* MyVibe Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyVibe Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B67B071FA1F4F600C47C00 /* MyVibeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVibeTests.swift; sourceTree = "<group>"; };
 		73B67B091FA1F4F600C47C00 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		73B67B1C1FA1F76000C47C00 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Cartfile; path = ../../../../Cartfile; sourceTree = "<group>"; };
-		73B67B1D1FA1F76100C47C00 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; name = Cartfile.resolved; path = ../../../../Cartfile.resolved; sourceTree = "<group>"; };
 		73B67B1E1FA1F78800C47C00 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
 		73B67B1F1FA1F7A800C47C00 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
 		73B67B211FA1F7DD00C47C00 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
@@ -100,6 +98,9 @@
 		73DF080E1FA2532F0013C53A /* UIKit.UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit.UIViewController.swift; sourceTree = "<group>"; };
 		73DF08101FA2534F0013C53A /* UIKit.UIAlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit.UIAlertAction.swift; sourceTree = "<group>"; };
 		73DF08121FA253800013C53A /* Foundation.String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foundation.String.swift; sourceTree = "<group>"; };
+		73DF081F1FA255C90013C53A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = MyVibe/Resources/Storyboards/en.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		73DF08211FA255E20013C53A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = ../Storyboards/pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		73DF08231FA256920013C53A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,8 +276,7 @@
 		73B67B171FA1F55400C47C00 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				73B67B1C1FA1F76000C47C00 /* Cartfile */,
-				73B67B1D1FA1F76100C47C00 /* Cartfile.resolved */,
+				73DF081E1FA255C90013C53A /* Localizable.strings */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -309,7 +309,7 @@
 		73B67B1B1FA1F6BC00C47C00 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				73B67AFB1FA1F4F600C47C00 /* LaunchScreen.storyboard */,
+				73DF08221FA256920013C53A /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -452,6 +452,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = 73B67AE61FA1F4F500C47C00;
 			productRefGroup = 73B67AF01FA1F4F500C47C00 /* Products */;
@@ -469,7 +470,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B67AFD1FA1F4F600C47C00 /* LaunchScreen.storyboard in Resources */,
+				73DF08241FA256920013C53A /* LaunchScreen.storyboard in Resources */,
+				73DF08201FA255C90013C53A /* Localizable.strings in Resources */,
 				73B67AFA1FA1F4F600C47C00 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,10 +543,19 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		73B67AFB1FA1F4F600C47C00 /* LaunchScreen.storyboard */ = {
+		73DF081E1FA255C90013C53A /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				73B67AFC1FA1F4F600C47C00 /* Base */,
+				73DF081F1FA255C90013C53A /* en */,
+				73DF08211FA255E20013C53A /* pl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		73DF08221FA256920013C53A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73DF08231FA256920013C53A /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

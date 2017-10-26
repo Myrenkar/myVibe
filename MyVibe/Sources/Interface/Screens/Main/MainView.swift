@@ -14,7 +14,7 @@ final class MainView: View {
         let searchBar = UISearchBar()
         searchBar.translatesAutoresizingMaskIntoConstraints = false
         searchBar.searchBarStyle = .prominent
-        searchBar.placeholder = "Search for your favorite artist"
+        searchBar.placeholder = .localized("searchbar.placeholder")
         return searchBar
     }()
     
