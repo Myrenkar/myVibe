@@ -12,6 +12,16 @@
 		73B67AFA1FA1F4F600C47C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B67AF91FA1F4F600C47C00 /* Assets.xcassets */; };
 		73B67AFD1FA1F4F600C47C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B67AFB1FA1F4F600C47C00 /* LaunchScreen.storyboard */; };
 		73B67B081FA1F4F600C47C00 /* MyVibeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67B071FA1F4F600C47C00 /* MyVibeTests.swift */; };
+		73B814F51FA1FE47006E4C23 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B814F41FA1FE47006E4C23 /* APIClient.swift */; };
+		73B814F71FA1FE8F006E4C23 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B814F61FA1FE8E006E4C23 /* APIService.swift */; };
+		73B814FA1FA1FEB9006E4C23 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B814F81FA1FEB9006E4C23 /* APIRequest.swift */; };
+		73B814FB1FA1FEB9006E4C23 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B814F91FA1FEB9006E4C23 /* APIResponse.swift */; };
+		73B814FD1FA1FEFB006E4C23 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B814FC1FA1FEFB006E4C23 /* APIError.swift */; };
+		73B815001FA1FFBC006E4C23 /* DiscoGSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B814FF1FA1FFBC006E4C23 /* DiscoGSService.swift */; };
+		73B815021FA2009F006E4C23 /* DefaultAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B815011FA2009F006E4C23 /* DefaultAPIClient.swift */; };
+		73B815051FA200DC006E4C23 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B815041FA200DC006E4C23 /* Result.swift */; };
+		73B815091FA2016C006E4C23 /* Foundation.URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B815071FA20157006E4C23 /* Foundation.URLRequest.swift */; };
+		73B8150A1FA2016F006E4C23 /* Foundation.URLComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B815081FA20157006E4C23 /* Foundation.URLComponents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +52,16 @@
 		73B67B221FA1F7DD00C47C00 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		73B67B231FA1F83B00C47C00 /* MyVibe.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MyVibe.xcconfig; sourceTree = "<group>"; };
 		73B67B241FA1F92500C47C00 /* Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Tests.xcconfig; sourceTree = "<group>"; };
+		73B814F41FA1FE47006E4C23 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		73B814F61FA1FE8E006E4C23 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		73B814F81FA1FEB9006E4C23 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		73B814F91FA1FEB9006E4C23 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		73B814FC1FA1FEFB006E4C23 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		73B814FF1FA1FFBC006E4C23 /* DiscoGSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoGSService.swift; sourceTree = "<group>"; };
+		73B815011FA2009F006E4C23 /* DefaultAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAPIClient.swift; sourceTree = "<group>"; };
+		73B815041FA200DC006E4C23 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		73B815071FA20157006E4C23 /* Foundation.URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foundation.URLRequest.swift; sourceTree = "<group>"; };
+		73B815081FA20157006E4C23 /* Foundation.URLComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foundation.URLComponents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +103,9 @@
 		73B67AF11FA1F4F500C47C00 /* MyVibe */ = {
 			isa = PBXGroup;
 			children = (
-				73B67B141FA1F51E00C47C00 /* Configuration */,
-				73B67B131FA1F51600C47C00 /* Resources */,
 				73B67B121FA1F50E00C47C00 /* Sources */,
+				73B67B131FA1F51600C47C00 /* Resources */,
+				73B67B141FA1F51E00C47C00 /* Configuration */,
 			);
 			path = MyVibe;
 			sourceTree = "<group>";
@@ -101,8 +121,11 @@
 		73B67B121FA1F50E00C47C00 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				73B67B1A1FA1F69200C47C00 /* Services */,
+				73B815061FA20144006E4C23 /* Extensions */,
+				73B815031FA200D3006E4C23 /* Models */,
+				73B814F01FA1FE06006E4C23 /* Network */,
 				73B67B191FA1F68300C47C00 /* Interface */,
+				73B67B1A1FA1F69200C47C00 /* Services */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -195,6 +218,53 @@
 				73B67B211FA1F7DD00C47C00 /* Release.xcconfig */,
 			);
 			name = Environments;
+			sourceTree = "<group>";
+		};
+		73B814F01FA1FE06006E4C23 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				73B814FE1FA1FF7A006E4C23 /* Services */,
+				73B814F11FA1FE30006E4C23 /* Core */,
+				73B815011FA2009F006E4C23 /* DefaultAPIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		73B814F11FA1FE30006E4C23 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				73B814FC1FA1FEFB006E4C23 /* APIError.swift */,
+				73B814F81FA1FEB9006E4C23 /* APIRequest.swift */,
+				73B814F91FA1FEB9006E4C23 /* APIResponse.swift */,
+				73B814F61FA1FE8E006E4C23 /* APIService.swift */,
+				73B814F41FA1FE47006E4C23 /* APIClient.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		73B814FE1FA1FF7A006E4C23 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				73B814FF1FA1FFBC006E4C23 /* DiscoGSService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		73B815031FA200D3006E4C23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				73B815041FA200DC006E4C23 /* Result.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		73B815061FA20144006E4C23 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				73B815081FA20157006E4C23 /* Foundation.URLComponents.swift */,
+				73B815071FA20157006E4C23 /* Foundation.URLRequest.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +368,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				73B67AF51FA1F4F600C47C00 /* ViewController.swift in Sources */,
+				73B814F71FA1FE8F006E4C23 /* APIService.swift in Sources */,
 				73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */,
+				73B8150A1FA2016F006E4C23 /* Foundation.URLComponents.swift in Sources */,
+				73B814FA1FA1FEB9006E4C23 /* APIRequest.swift in Sources */,
+				73B815021FA2009F006E4C23 /* DefaultAPIClient.swift in Sources */,
+				73B815001FA1FFBC006E4C23 /* DiscoGSService.swift in Sources */,
+				73B815051FA200DC006E4C23 /* Result.swift in Sources */,
+				73B815091FA2016C006E4C23 /* Foundation.URLRequest.swift in Sources */,
+				73B814F51FA1FE47006E4C23 /* APIClient.swift in Sources */,
+				73B814FB1FA1FEB9006E4C23 /* APIResponse.swift in Sources */,
+				73B814FD1FA1FEFB006E4C23 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
