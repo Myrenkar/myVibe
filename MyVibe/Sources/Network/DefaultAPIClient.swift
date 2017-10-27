@@ -13,7 +13,7 @@ final class DefaultAPIClient: APIClient {
     // MARK: Properties
     
     private let session: URLSession
-    private let autorizationController = AuthorizationController()
+    private let autorizationController: AuthorizationController
     
     // MARK: Initializers
     
@@ -22,6 +22,7 @@ final class DefaultAPIClient: APIClient {
     /// - Parameter session: URLSession to use - default is `.shared`
     init(session: URLSession = .shared) {
         self.session = session
+        self.autorizationController = AuthorizationController()
     }
     
     func perform(request: APIRequest, completionHandler: @escaping (Result<APIResponse>) -> ()) {

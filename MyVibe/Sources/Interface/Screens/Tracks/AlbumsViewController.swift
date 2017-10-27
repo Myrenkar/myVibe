@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  AlbumsViewController.swift
 //  MyVibe
 //
 //  Created by Piotr Torczyński on 26/10/2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class MainViewController: ViewController<MainView>, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
+final class AlbumsViewController: ViewController<AlbumsView>, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
 
     private let dependencies: ApplicationDependenciesProvider
     private var albums: [Album]
@@ -16,7 +16,7 @@ final class MainViewController: ViewController<MainView>, UITableViewDataSource,
     init(dependencies: ApplicationDependenciesProvider) {
         self.dependencies = dependencies
         self.albums = []
-        super.init(view: MainView())
+        super.init(view: AlbumsView())
     }
     
     override func setupProperties() {
@@ -45,7 +45,7 @@ final class MainViewController: ViewController<MainView>, UITableViewDataSource,
     }
 }
 
-fileprivate extension MainViewController {
+fileprivate extension AlbumsViewController {
     fileprivate func getAlbums(withTitle title: String) {
         dependencies.apiClient.perform(request: AlbumRequest(albumTitle: title)) { [unowned self] result in
             switch result {

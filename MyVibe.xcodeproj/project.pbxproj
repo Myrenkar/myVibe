@@ -12,8 +12,8 @@
 		731882A61FA20DD400D9D865 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882A51FA20DD400D9D865 /* ViewController.swift */; };
 		731882A71FA20E5200D9D865 /* ApplicationDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882A21FA20DA100D9D865 /* ApplicationDependencies.swift */; };
 		731882A91FA20E8A00D9D865 /* ApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882A81FA20E8A00D9D865 /* ApplicationController.swift */; };
-		731882AC1FA20ED500D9D865 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882AB1FA20ED500D9D865 /* MainViewController.swift */; };
-		731882AE1FA20EEA00D9D865 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882AD1FA20EEA00D9D865 /* MainView.swift */; };
+		731882AC1FA20ED500D9D865 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882AB1FA20ED500D9D865 /* AlbumsViewController.swift */; };
+		731882AE1FA20EEA00D9D865 /* AlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882AD1FA20EEA00D9D865 /* AlbumsView.swift */; };
 		731882B21FA20FDA00D9D865 /* UIKit.UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882B11FA20FDA00D9D865 /* UIKit.UIView.swift */; };
 		731882B81FA21C8100D9D865 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882B71FA21C8100D9D865 /* AlbumCell.swift */; };
 		731882BA1FA21CA500D9D865 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882B91FA21CA500D9D865 /* TableViewCell.swift */; };
@@ -62,8 +62,8 @@
 		731882A31FA20DBC00D9D865 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		731882A51FA20DD400D9D865 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		731882A81FA20E8A00D9D865 /* ApplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationController.swift; sourceTree = "<group>"; };
-		731882AB1FA20ED500D9D865 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		731882AD1FA20EEA00D9D865 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		731882AB1FA20ED500D9D865 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		731882AD1FA20EEA00D9D865 /* AlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsView.swift; sourceTree = "<group>"; };
 		731882B11FA20FDA00D9D865 /* UIKit.UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit.UIView.swift; sourceTree = "<group>"; };
 		731882B71FA21C8100D9D865 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
 		731882B91FA21CA500D9D865 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -162,14 +162,14 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		731882AA1FA20EB600D9D865 /* Main */ = {
+		731882AA1FA20EB600D9D865 /* Tracks */ = {
 			isa = PBXGroup;
 			children = (
-				731882AB1FA20ED500D9D865 /* MainViewController.swift */,
-				731882AD1FA20EEA00D9D865 /* MainView.swift */,
+				731882AB1FA20ED500D9D865 /* AlbumsViewController.swift */,
+				731882AD1FA20EEA00D9D865 /* AlbumsView.swift */,
 				731882B71FA21C8100D9D865 /* AlbumCell.swift */,
 			);
-			path = Main;
+			path = Tracks;
 			sourceTree = "<group>";
 		};
 		731882BB1FA21CC400D9D865 /* Protocols */ = {
@@ -291,7 +291,7 @@
 		73B67B181FA1F5E600C47C00 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				731882AA1FA20EB600D9D865 /* Main */,
+				731882AA1FA20EB600D9D865 /* Tracks */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -509,7 +509,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				731882AC1FA20ED500D9D865 /* MainViewController.swift in Sources */,
+				731882AC1FA20ED500D9D865 /* AlbumsViewController.swift in Sources */,
 				731882A61FA20DD400D9D865 /* ViewController.swift in Sources */,
 				73B814F71FA1FE8F006E4C23 /* APIService.swift in Sources */,
 				73DF082E1FA262B50013C53A /* APIQueryParameter.swift in Sources */,
@@ -518,7 +518,7 @@
 				731882BF1FA21D0500D9D865 /* UIKit.UITableView.swift in Sources */,
 				73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */,
 				73B8150A1FA2016F006E4C23 /* Foundation.URLComponents.swift in Sources */,
-				731882AE1FA20EEA00D9D865 /* MainView.swift in Sources */,
+				731882AE1FA20EEA00D9D865 /* AlbumsView.swift in Sources */,
 				73B814FA1FA1FEB9006E4C23 /* APIRequest.swift in Sources */,
 				731882B81FA21C8100D9D865 /* AlbumCell.swift in Sources */,
 				731882B21FA20FDA00D9D865 /* UIKit.UIView.swift in Sources */,

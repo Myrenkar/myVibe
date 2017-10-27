@@ -1,5 +1,5 @@
 //
-//  MainView.swift
+//  TracksView.swift
 //  MyVibe
 //
 //  Created by Piotr Torczyński on 26/10/2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class MainView: View {
+final class AlbumsView: View {
 
     private(set) lazy var searchBar: UISearchBar = {
         let searchBar = UISearchBar()

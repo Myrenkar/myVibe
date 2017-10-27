@@ -17,7 +17,7 @@ struct AlbumRequest: APIRequest {
     
     var query: [String : APIQueryParameter] {
         return [
-            "release_title" : .string(self.albumTitle)
+            "track" : .string(self.albumTitle)
         ]
     }
     
