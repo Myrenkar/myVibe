@@ -1,0 +1,1826 @@
+{
+    "pagination":{
+        "per_page":50,
+        "pages":13,
+        "page":1,
+        "urls":{
+            "last":"https://api.discogs.com/database/search?track=kylie&per_page=50&page=13",
+            "next":"https://api.discogs.com/database/search?track=kylie&per_page=50&page=2"
+        },
+        "items":626
+    },
+    "results":[
+               {
+               "style":[
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/g1fAFuI9iugY-KDibEnORokcXk8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1240341-1269872742.jpeg.jpg",
+               "format":[
+                         "File",
+                         "MP3"
+                         ],
+               "country":"US",
+               "barcode":[
+               
+               ],
+               "uri":"/Akcent-Kylie/release/1240341",
+               "community":{
+               "want":1,
+               "have":0
+               },
+               "label":[
+                        "Ultra Records"
+                        ],
+               "catno":"UL 1357",
+               "year":"2005",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Akcent - Kylie",
+               "resource_url":"https://api.discogs.com/releases/1240341",
+               "type":"release",
+               "id":1240341
+               },
+               {
+               "style":[
+                        "Ambient",
+                        "Deep House"
+                        ],
+               "thumb":"https://img.discogs.com/Ac15g4W0hIrJbFma-VeyWyf_de0=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5440792-1393425313-6920.jpeg.jpg",
+               "format":[
+                         "CDr",
+                         "Single",
+                         "Promo"
+                         ],
+               "country":"Sweden",
+               "barcode":[
+               
+               ],
+               "uri":"/Boy-Tedson-Kylie/release/5440792",
+               "community":{
+               "want":4,
+               "have":0
+               },
+               "label":[
+                        "Warner Dance Labels",
+                        "Warner Music Sweden"
+                        ],
+               "catno":"none",
+               "year":"2013",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Boy Tedson - Kylie",
+               "resource_url":"https://api.discogs.com/releases/5440792",
+               "type":"release",
+               "id":5440792
+               },
+               {
+               "style":[
+                        "House",
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/8aJ5UKZNEwXUawojpAWgkHJeCZU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2644146-1294686827.jpeg.jpg",
+               "format":[
+                         "CD",
+                         "Maxi-Single",
+                         "Promo"
+                         ],
+               "country":"Belgium",
+               "barcode":[
+                          "828767330921"
+                          ],
+               "uri":"/Akcent-Kylie/release/2644146",
+               "community":{
+               "want":3,
+               "have":0
+               },
+               "label":[
+                        "NRG!A",
+                        "Roton",
+                        "20-20 Entertainment LLC",
+                        "20-20 Entertainment LLC"
+                        ],
+               "catno":"82876 733092",
+               "year":"2005",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Akcent - Kylie",
+               "resource_url":"https://api.discogs.com/releases/2644146",
+               "type":"release",
+               "id":2644146
+               },
+               {
+               "style":[
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/WgGWgeBQexnRM9dlZhAk9oVim6o=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1003795-1182956344.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "33 \u2153 RPM",
+                         "White Label"
+                         ],
+               "country":"Unknown",
+               "barcode":[
+               
+               ],
+               "uri":"/Akcent-Kylie/release/1003795",
+               "community":{
+               "want":6,
+               "have":9
+               },
+               "label":[
+                        "Not On Label"
+                        ],
+               "catno":"82876733081",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Akcent - Kylie",
+               "resource_url":"https://api.discogs.com/releases/1003795",
+               "type":"release",
+               "id":1003795
+               },
+               {
+               "style":[
+                        "Trance",
+                        "House",
+                        "Ambient"
+                        ],
+               "thumb":"https://img.discogs.com/Bs3EpfAZ2p03rwHn3hIgRbK2MxI=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-90239-1191779097.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "45 RPM"
+                         ],
+               "country":"UK",
+               "barcode":[
+                          "ADRENALIN KLF-10R-A1",
+                          "ADRENALIN KLF-10R-B1"
+                          ],
+               "uri":"/KLF-Kylie-Said-To-Jason-The-Remixes/release/90239",
+               "community":{
+               "want":146,
+               "have":219
+               },
+               "label":[
+                        "KLF Communications",
+                        "KLF Communications",
+                        "KLF Communications",
+                        "KLF Communications",
+                        "The Sound Of Mu(sic)",
+                        "The Sound Of Mu(sic)",
+                        "Warner/Chappell Music",
+                        "Zoo Music Publishing",
+                        "E.G. Music Ltd.",
+                        "Adrenalin"
+                        ],
+               "catno":"KLF 010 R",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason (The Remixes)",
+               "resource_url":"https://api.discogs.com/releases/90239",
+               "type":"release",
+               "id":90239
+               },
+               {
+               "style":[
+                        "Abstract",
+                        "Experimental",
+                        "Ambient"
+                        ],
+               "thumb":"https://img.discogs.com/Jgvmx6-JuHxudsW478YESoR88oo=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3654327-1339047733-5995.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "45 RPM",
+                         "White Label",
+                         "Test Pressing"
+                         ],
+               "country":"UK",
+               "barcode":[
+                          "KLF-10R-A1 ADRENALIN",
+                          "KLF-10R-B1 ADRENALIN"
+                          ],
+               "uri":"/KLF-Kylie-Said-To-Jason-The-Remixes/release/3654327",
+               "community":{
+               "want":60,
+               "have":8
+               },
+               "label":[
+                        "KLF Communications"
+                        ],
+               "catno":"KLF 010 R",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason (The Remixes)",
+               "resource_url":"https://api.discogs.com/releases/3654327",
+               "type":"release",
+               "id":3654327
+               },
+               {
+               "style":[
+                        "Euro House",
+                        "Europop"
+                        ],
+               "thumb":"https://img.discogs.com/Vm6tULsF6nZm0LvgDYFmtPHaFgs=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-488647-1122141344.jpg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "Single",
+                         "Limited Edition",
+                         "Promo"
+                         ],
+               "country":"Netherlands",
+               "barcode":[
+                          "8714866 650 12 6"
+                          ],
+               "uri":"/Akcent-Kylie/release/488647",
+               "community":{
+               "want":22,
+               "have":37
+               },
+               "label":[
+                        "Digidance",
+                        "Roton",
+                        "Digidance B.V.",
+                        "ToCo International",
+                        "Roton",
+                        "Digidance B.V.",
+                        "Digidance B.V."
+                        ],
+               "catno":"8714866650-12",
+               "year":"2005",
+               "genre":[
+                        "Electronic",
+                        "Pop"
+                        ],
+               "title":"Akcent - Kylie",
+               "resource_url":"https://api.discogs.com/releases/488647",
+               "type":"release",
+               "id":488647
+               },
+               {
+               "style":[
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/nQJEQk3DVUIXL0KfRRXbDrItkOA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-488929-1294109003.jpeg.jpg",
+               "format":[
+                         "CD",
+                         "Maxi-Single"
+                         ],
+               "country":"Netherlands",
+               "barcode":[
+                          "8 714866 650034",
+                          "Biem / Stemra"
+                          ],
+               "uri":"/Akcent-Kylie/release/488929",
+               "community":{
+               "want":8,
+               "have":47
+               },
+               "label":[
+                        "Digidance",
+                        "Roton",
+                        "ToCo International",
+                        "Roton",
+                        "Digidance B.V.",
+                        "Digidance B.V.",
+                        "Digidance B.V."
+                        ],
+               "catno":"8714866650-3",
+               "year":"2005",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Akcent - Kylie",
+               "resource_url":"https://api.discogs.com/releases/488929",
+               "type":"release",
+               "id":488929
+               },
+               {
+               "style":[
+                        "House"
+                        ],
+               "thumb":"https://img.discogs.com/wgAJU-kWqJ9GzTjqi9MjYKVxkU4=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-544197-1140921903.jpeg.jpg",
+               "format":[
+                         "CD",
+                         "Maxi-Single",
+                         "Enhanced"
+                         ],
+               "country":"Belgium",
+               "barcode":[
+               
+               ],
+               "uri":"/Akcent-Kylie/release/544197",
+               "community":{
+               "want":0,
+               "have":3
+               },
+               "label":[
+                        "ARS Entertainment"
+                        ],
+               "catno":"740967-5",
+               "year":"2005",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Akcent - Kylie",
+               "resource_url":"https://api.discogs.com/releases/544197",
+               "type":"release",
+               "id":544197
+               },
+               {
+               "style":[
+                        "Acid House"
+                        ],
+               "thumb":"https://img.discogs.com/6AZECb2itksUjoILXhqKuNZaaqc=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2026612-1454843300-9791.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "45 RPM"
+                         ],
+               "country":"UK",
+               "barcode":[
+                          "5 017139 200107",
+                          "5 017139 500108",
+                          "KLF-010T-A1   ADRENALIN",
+                          "KLF-010T-B1   ADRENALIN"
+                          ],
+               "uri":"/The-KLF-Kylie-Said-To-Jason/release/2026612",
+               "community":{
+               "want":95,
+               "have":142
+               },
+               "label":[
+                        "KLF Communications",
+                        "KLF Communications",
+                        "The Cartel",
+                        "KLF Communications",
+                        "KLF Communications",
+                        "Adrenalin",
+                        "Warner/Chappell Music",
+                        "Zoo Music",
+                        "E.G. Music"
+                        ],
+               "catno":"KLF 10 P",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/releases/2026612",
+               "type":"release",
+               "id":2026612
+               },
+               {
+               "style":[
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/nQJEQk3DVUIXL0KfRRXbDrItkOA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-488929-1294109003.jpeg.jpg",
+               "format":[
+                         "CD",
+                         "Maxi-Single"
+                         ],
+               "country":"Netherlands",
+               "barcode":[
+                          "8 714866 650034",
+                          "Biem / Stemra"
+                          ],
+               "uri":"/Akcent-Kylie/master/172134",
+               "community":{
+               "want":56,
+               "have":150
+               },
+               "label":[
+                        "Digidance",
+                        "Roton",
+                        "ToCo International",
+                        "Roton",
+                        "Digidance B.V.",
+                        "Digidance B.V.",
+                        "Digidance B.V."
+                        ],
+               "catno":"8714866650-3",
+               "year":"2005",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Akcent - Kylie",
+               "resource_url":"https://api.discogs.com/masters/172134",
+               "type":"master",
+               "id":172134
+               },
+               {
+               "style":[
+                        "House",
+                        "Electro",
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/uP2cXWDizxhkcJXG5XRnbKS8ByA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-775201-1157489146.jpeg.jpg",
+               "format":[
+                         "CDr",
+                         "Promo"
+                         ],
+               "country":"UK",
+               "barcode":[
+               
+               ],
+               "uri":"/Akcent-Kylie/release/775201",
+               "community":{
+               "want":8,
+               "have":10
+               },
+               "label":[
+                        "Sony BMG Music Entertainment (UK) Ltd."
+                        ],
+               "catno":"none",
+               "year":"2006",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Akcent - Kylie",
+               "resource_url":"https://api.discogs.com/releases/775201",
+               "type":"release",
+               "id":775201
+               },
+               {
+               "style":[
+                        "House",
+                        "Disco"
+                        ],
+               "thumb":"https://img.discogs.com/l4tzfOi1580M6HMM80XT9FlRnb8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-664629-1145099831.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\""
+                         ],
+               "country":"Germany",
+               "barcode":[
+               
+               ],
+               "uri":"/Mike-Austin-Kylie-Remixes/release/664629",
+               "community":{
+               "want":1,
+               "have":21
+               },
+               "label":[
+                        "Mike Austin Germany"
+                        ],
+               "catno":"Mike1",
+               "year":"2005",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Mike Austin - Kylie (Remixes)",
+               "resource_url":"https://api.discogs.com/releases/664629",
+               "type":"release",
+               "id":664629
+               },
+               {
+               "style":[
+                        "Acid House"
+                        ],
+               "thumb":"https://img.discogs.com/pupBiaa9mvoAhPN2SZ55TYmjmaI=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1985201-1468743564-2046.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\""
+                         ],
+               "country":"UK",
+               "barcode":[
+               
+               ],
+               "uri":"/KLF-Kylie-Said-To-Jason/release/1985201",
+               "community":{
+               "want":117,
+               "have":4
+               },
+               "label":[
+                        "KLF Communications"
+                        ],
+               "catno":"KLF 010 T",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/releases/1985201",
+               "type":"release",
+               "id":1985201
+               },
+               {
+               "style":[
+                        "Trance",
+                        "Electro",
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/YjOUAgcZ1rq4Kl5hCB2OWEGOe0w=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3091063-1315293300.jpeg.jpg",
+               "format":[
+                         "CD",
+                         "Single"
+                         ],
+               "country":"Germany",
+               "barcode":[
+                          "828767415727"
+                          ],
+               "uri":"/Akcent-Kylie/release/3091063",
+               "community":{
+               "want":5,
+               "have":11
+               },
+               "label":[
+                        "Sony BMG Music Entertainment",
+                        "Sony Music Entertainment (Germany) GmbH",
+                        "Roton",
+                        "20-20 Entertainment LLC",
+                        "20-20 Entertainment LLC"
+                        ],
+               "catno":"82876741572",
+               "year":"2005",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Akcent - Kylie",
+               "resource_url":"https://api.discogs.com/releases/3091063",
+               "type":"release",
+               "id":3091063
+               },
+               {
+               "style":[
+                        "Electro",
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/G8mDiOxOKN9b0y1CJybHk-rYTwQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-648201-1219565570.jpeg.jpg",
+               "format":[
+                         "CD",
+                         "Maxi-Single"
+                         ],
+               "country":"US",
+               "barcode":[
+               
+               ],
+               "uri":"/Akcent-Kylie/release/648201",
+               "community":{
+               "want":1,
+               "have":6
+               },
+               "label":[
+                        "Ultra Records"
+                        ],
+               "catno":"UL 1357-2",
+               "year":"2006",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Akcent - Kylie",
+               "resource_url":"https://api.discogs.com/releases/648201",
+               "type":"release",
+               "id":648201
+               },
+               {
+               "style":[
+                        "Acid House"
+                        ],
+               "thumb":"https://img.discogs.com/A7d2rXcafZVsVIEaUiV0VkELBts=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-112781-1259349301.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "45 RPM"
+                         ],
+               "country":"UK",
+               "barcode":[
+                          "5 017139 200107",
+                          "KLF 010T-A1 ADRENALIN",
+                          "KLF 010T-B1 ADRENALIN"
+                          ],
+               "uri":"/The-KLF-Kylie-Said-To-Jason/release/112781",
+               "community":{
+               "want":212,
+               "have":410
+               },
+               "label":[
+                        "KLF Communications",
+                        "KLF Communications",
+                        "KLF Communications",
+                        "KLF Communications",
+                        "Warner/Chappell Music",
+                        "Zoo Music",
+                        "E.G. Music",
+                        "The Cartel",
+                        "Adrenalin"
+                        ],
+               "catno":"KLF 010T",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/releases/112781",
+               "type":"release",
+               "id":112781
+               },
+               {
+               "style":[
+                        "Acid House"
+                        ],
+               "thumb":"https://img.discogs.com/A7d2rXcafZVsVIEaUiV0VkELBts=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-112781-1259349301.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "45 RPM"
+                         ],
+               "country":"UK",
+               "barcode":[
+                          "5 017139 200107",
+                          "KLF 010T-A1 ADRENALIN",
+                          "KLF 010T-B1 ADRENALIN"
+                          ],
+               "uri":"/The-KLF-Kylie-Said-To-Jason/master/14220",
+               "community":{
+               "want":1366,
+               "have":1174
+               },
+               "label":[
+                        "KLF Communications",
+                        "KLF Communications",
+                        "KLF Communications",
+                        "KLF Communications",
+                        "Warner/Chappell Music",
+                        "Zoo Music",
+                        "E.G. Music",
+                        "The Cartel",
+                        "Adrenalin"
+                        ],
+               "catno":"KLF 010T",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/masters/14220",
+               "type":"master",
+               "id":14220
+               },
+               {
+               "style":[
+                        "Techno",
+                        "Trance"
+                        ],
+               "thumb":"https://img.discogs.com/AgZ2E64aqhJV3UTy1d2yWVQ1zcE=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-115630-1140792053.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "Promo"
+                         ],
+               "country":"UK",
+               "barcode":[
+                          "KLF-010 T-A1 ADRENALIN",
+                          "KLF-010-T-B1 ADRENALIN"
+                          ],
+               "uri":"/The-KLF-Kylie-Said-To-Jason/release/115630",
+               "community":{
+               "want":84,
+               "have":79
+               },
+               "label":[
+                        "KLF Communications",
+                        "Adrenalin"
+                        ],
+               "catno":"KLF PROMO 2",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/releases/115630",
+               "type":"release",
+               "id":115630
+               },
+               {
+               "style":[
+                        "House",
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/dTXPjun2WuqxxIl0izV71xh2Amk=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1309885-1437859585-9176.jpeg.jpg",
+               "format":[
+                         "CD",
+                         "Maxi-Single"
+                         ],
+               "country":"Sweden",
+               "barcode":[
+               
+               ],
+               "uri":"/Akcent-Kylie/release/1309885",
+               "community":{
+               "want":0,
+               "have":18
+               },
+               "label":[
+                        "The Dance Division",
+                        "ToCo Europe",
+                        "TMC - The Music Company",
+                        "The Dance Division"
+                        ],
+               "catno":"TMC 152601",
+               "year":"2005",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Akcent - Kylie",
+               "resource_url":"https://api.discogs.com/releases/1309885",
+               "type":"release",
+               "id":1309885
+               },
+               {
+               "style":[
+                        "House",
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/Jk1MmszOmgfoGWTO2CBRGxiEfts=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3355016-1327091335.jpeg.jpg",
+               "format":[
+                         "CDr",
+                         "Single",
+                         "Promo"
+                         ],
+               "country":"Sweden",
+               "barcode":[
+               
+               ],
+               "uri":"/Akcent-Kylie/release/3355016",
+               "community":{
+               "want":0,
+               "have":0
+               },
+               "label":[
+                        "The Dance Division"
+                        ],
+               "catno":"none",
+               "year":"2005",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Akcent - Kylie",
+               "resource_url":"https://api.discogs.com/releases/3355016",
+               "type":"release",
+               "id":3355016
+               },
+               {
+               "style":[
+                        "Trance",
+                        "Synth-pop",
+                        "Ambient"
+                        ],
+               "thumb":"https://img.discogs.com/y6XF8wiBV7M9q4031psK1f1qm2Y=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-83637-1450125469-2549.jpeg.jpg",
+               "format":[
+                         "CD",
+                         "Single"
+                         ],
+               "country":"UK",
+               "barcode":[
+                          "5 017139 600105",
+                          "5017139600105",
+                          "KLF 010CD 10087711 01 % MADE IN U.K. BY PDO"
+                          ],
+               "uri":"/The-KLF-Kylie-Said-To-Jason/release/83637",
+               "community":{
+               "want":200,
+               "have":159
+               },
+               "label":[
+                        "KLF Communications",
+                        "PDO, UK",
+                        "KLF Communications",
+                        "KLF Communications",
+                        "The Cartel"
+                        ],
+               "catno":"KLF 010CD",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/releases/83637",
+               "type":"release",
+               "id":83637
+               },
+               {
+               "style":[
+                        "Trance",
+                        "Techno"
+                        ],
+               "thumb":"https://img.discogs.com/dMyHNwaTs-hRLXXHT0x6m9kj_Rg=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-106517-1310725673.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "White Label",
+                         "Promo"
+                         ],
+               "country":"UK",
+               "barcode":[
+                          "KLF-PROMO-A1  ADRENALIN",
+                          "KLF-PROMO-B1  ADRENALIN"
+                          ],
+               "uri":"/KLF-Kylie-Said-To-Jason/release/106517",
+               "community":{
+               "want":131,
+               "have":35
+               },
+               "label":[
+                        "KLF Communications"
+                        ],
+               "catno":"KLF PROMO",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/releases/106517",
+               "type":"release",
+               "id":106517
+               },
+               {
+               "style":[
+                        "House",
+                        "Synth-pop"
+                        ],
+               "thumb":"https://img.discogs.com/sy6-HoRM0y3ZO2WvKsFbm-y_LmY=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-448553-1203693035.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "7\"",
+                         "Single",
+                         "45 RPM"
+                         ],
+               "country":"UK",
+               "barcode":[
+                          "5 017139 100100",
+                          "5017139100100",
+                          "KLF-010-A1 ADRENALIN",
+                          "KLF-010-B1 ADRENALIN"
+                          ],
+               "uri":"/The-KLF-Kylie-Said-To-Jason/release/448553",
+               "community":{
+               "want":67,
+               "have":95
+               },
+               "label":[
+                        "KLF Communications",
+                        "The Cartel",
+                        "KLF Communications",
+                        "KLF Communications",
+                        "KLF Communications",
+                        "Warner/Chappell Music",
+                        "Zoo Music",
+                        "E.G. Music",
+                        "Adrenalin"
+                        ],
+               "catno":"KLF 010",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/releases/448553",
+               "type":"release",
+               "id":448553
+               },
+               {
+               "style":[
+                        "Techno",
+                        "Trance"
+                        ],
+               "thumb":"https://img.discogs.com/1EFhjhabSTVSL_nrRPxqivjYiek=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7593372-1444743281-3923.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "10\"",
+                         "45 RPM",
+                         "Single",
+                         "Limited Edition",
+                         "Promo",
+                         "Unofficial Release",
+                         "Stereo"
+                         ],
+               "country":"UK",
+               "barcode":[
+               
+               ],
+               "uri":"/The-KLF-Kylie-Said-to-Jason-RR-KLF-Promo/master/1039648",
+               "community":{
+               "want":58,
+               "have":21
+               },
+               "label":[
+                        "Cubefish"
+                        ],
+               "catno":"CUBE001",
+               "year":"2015",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said to Jason RR (KLF Promo)",
+               "resource_url":"https://api.discogs.com/masters/1039648",
+               "type":"master",
+               "id":1039648
+               },
+               {
+               "style":[
+                        "Trance",
+                        "Techno"
+                        ],
+               "thumb":"https://img.discogs.com/FzK1y-hrAi9A3bQmtLdibqKq_dY=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9576712-1483041871-9547.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "Promo"
+                         ],
+               "country":"UK",
+               "barcode":[
+                          "KLF-PROMO-A1 ADRENALIN",
+                          "KLF-PROMO-B1 ADRENALIN"
+                          ],
+               "uri":"/The-KLF-Kylie-Said-To-Jason/release/9576712",
+               "community":{
+               "want":24,
+               "have":4
+               },
+               "label":[
+                        "KLF Communications",
+                        "Adrenalin"
+                        ],
+               "catno":"KLF PROMO",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/releases/9576712",
+               "type":"release",
+               "id":9576712
+               },
+               {
+               "style":[
+                        "Techno",
+                        "Trance"
+                        ],
+               "thumb":"https://img.discogs.com/1EFhjhabSTVSL_nrRPxqivjYiek=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7593372-1444743281-3923.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "10\"",
+                         "45 RPM",
+                         "Single",
+                         "Limited Edition",
+                         "Promo",
+                         "Unofficial Release",
+                         "Stereo"
+                         ],
+               "country":"UK",
+               "barcode":[
+               
+               ],
+               "uri":"/The-KLF-Kylie-Said-to-Jason-RR-KLF-Promo/release/7593372",
+               "community":{
+               "want":18,
+               "have":10
+               },
+               "label":[
+                        "Cubefish"
+                        ],
+               "catno":"CUBE001",
+               "year":"2015",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said to Jason RR (KLF Promo)",
+               "resource_url":"https://api.discogs.com/releases/7593372",
+               "type":"release",
+               "id":7593372
+               },
+               {
+               "style":[
+                        "Techno",
+                        "Trance"
+                        ],
+               "thumb":"https://img.discogs.com/nolYONCuuwkh5mnVDcSRqrJL5LA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8876004-1471631279-6096.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "10\"",
+                         "45 RPM",
+                         "Single",
+                         "Promo",
+                         "Test Pressing",
+                         "Unofficial Release",
+                         "Stereo"
+                         ],
+               "country":"UK",
+               "barcode":[
+               
+               ],
+               "uri":"/The-KLF-Kylie-Said-to-Jason-RR-KLF-Promo/release/8876004",
+               "community":{
+               "want":22,
+               "have":2
+               },
+               "label":[
+                        "Cubefish"
+                        ],
+               "catno":"CUBE001",
+               "year":"2015",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said to Jason RR (KLF Promo)",
+               "resource_url":"https://api.discogs.com/releases/8876004",
+               "type":"release",
+               "id":8876004
+               },
+               {
+               "style":[
+                        "House",
+                        "Synth-pop"
+                        ],
+               "thumb":"https://img.discogs.com/hVfojRBr06BDK2vqNjqEfS-VoDQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-784792-1329856343.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "7\"",
+                         "Single",
+                         "45 RPM"
+                         ],
+               "country":"UK",
+               "barcode":[
+               
+               ],
+               "uri":"/KLF-Kylie-Said-To-Jason/release/784792",
+               "community":{
+               "want":84,
+               "have":5
+               },
+               "label":[
+                        "KLF Communications"
+                        ],
+               "catno":"KLF 010",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/releases/784792",
+               "type":"release",
+               "id":784792
+               },
+               {
+               "style":[
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/7dtTgGCq9at1jA7CfkSM0yNqW5s=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-4476285-1460329240-6621.jpeg.jpg",
+               "format":[
+                         "CD",
+                         "Single"
+                         ],
+               "country":"France",
+               "barcode":[
+                          "3 297750 020113",
+                          "3297750020113",
+                          "SPPF",
+                          "SACEM / SDRM / SACD / SCAM",
+                          "SB703"
+                          ],
+               "uri":"/Akcent-Kylie/release/4476285",
+               "community":{
+               "want":2,
+               "have":9
+               },
+               "label":[
+                        "Societ\u00e9 Nouvelle Des Editions Scorpio",
+                        "Roton",
+                        "Roton",
+                        "ToCo International",
+                        "Roton",
+                        "Sony BMG Music Entertainment",
+                        "SNA",
+                        "Roton"
+                        ],
+               "catno":"S0201-1",
+               "year":"2005",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Akcent - Kylie",
+               "resource_url":"https://api.discogs.com/releases/4476285",
+               "type":"release",
+               "id":4476285
+               },
+               {
+               "style":[
+                        "House",
+                        "Synth-pop"
+                        ],
+               "thumb":"https://img.discogs.com/4D5XVlk2VvMapDyrRvMJTdNQ33E=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8799557-1469019149-8265.jpeg.jpg",
+               "format":[
+                         "Cassette",
+                         "Single Sided",
+                         "Promo",
+                         "Sampler",
+                         "Stereo"
+                         ],
+               "country":"UK",
+               "barcode":[
+               
+               ],
+               "uri":"/The-KLF-Kylie-Said-To-Jason/release/8799557",
+               "community":{
+               "want":18,
+               "have":2
+               },
+               "label":[
+                        "The Tape Gallery"
+                        ],
+               "catno":"none",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/releases/8799557",
+               "type":"release",
+               "id":8799557
+               },
+               {
+               "style":[
+                        "House",
+                        "Synth-pop"
+                        ],
+               "thumb":"https://img.discogs.com/G4JfS02PavTSZpqzyr8ZHqQd1nU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3430841-1330113969.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "7\"",
+                         "Single",
+                         "45 RPM",
+                         "Test Pressing"
+                         ],
+               "country":"UK",
+               "barcode":[
+               
+               ],
+               "uri":"/KLF-Kylie-Said-To-Jason/release/3430841",
+               "community":{
+               "want":41,
+               "have":7
+               },
+               "label":[
+                        "KLF Communications"
+                        ],
+               "catno":"KLF 010",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/releases/3430841",
+               "type":"release",
+               "id":3430841
+               },
+               {
+               "style":[
+                        "Trance",
+                        "Techno"
+                        ],
+               "thumb":"https://img.discogs.com/zHU4qhFTIJ9577dP0CqN1dXVVx0=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7593201-1444740853-1596.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "45 RPM",
+                         "Single",
+                         "Limited Edition",
+                         "Promo",
+                         "Unofficial Release",
+                         "Stereo"
+                         ],
+               "country":"UK",
+               "barcode":[
+               
+               ],
+               "uri":"/The-KLF-Kylie-Said-to-Jason-RR-KLF-Promo/release/7593201",
+               "community":{
+               "want":18,
+               "have":9
+               },
+               "label":[
+                        "Cubefish"
+                        ],
+               "catno":"CUBE002",
+               "year":"2015",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said to Jason RR (KLF Promo)",
+               "resource_url":"https://api.discogs.com/releases/7593201",
+               "type":"release",
+               "id":7593201
+               },
+               {
+               "style":[
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/bNWwFUA-xT4wby5eERtBovtbyzQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6346552-1495394059-5732.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "33 \u2153 RPM"
+                         ],
+               "country":"Italy",
+               "barcode":[
+               
+               ],
+               "uri":"/George-I-Love-Kylie-Minogue/release/6346552",
+               "community":{
+               "want":1,
+               "have":0
+               },
+               "label":[
+                        "24 Records"
+                        ],
+               "catno":"TW 51",
+               "year":"2004",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"George (2) - I Love Kylie Minogue",
+               "resource_url":"https://api.discogs.com/releases/6346552",
+               "type":"release",
+               "id":6346552
+               },
+               {
+               "style":[
+                        "Techno",
+                        "Industrial"
+                        ],
+               "thumb":"https://img.discogs.com/NZCHUf6lkNTYMUkd5yE2_CAm5bM=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3576945-1469560259-9647.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "EP",
+                         "White Label"
+                         ],
+               "country":"Germany",
+               "barcode":[
+               
+               ],
+               "uri":"/Rumenige-Petrzalka-EP/release/3576945",
+               "community":{
+               "want":60,
+               "have":19
+               },
+               "label":[
+                        "Tresor"
+                        ],
+               "catno":"Tresor 204",
+               "year":"2003",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Rumenige - Petrzalka EP",
+               "resource_url":"https://api.discogs.com/releases/3576945",
+               "type":"release",
+               "id":3576945
+               },
+               {
+               "style":[
+                        "House",
+                        "Electro",
+                        "Synth-pop",
+                        "Dance-pop"
+                        ],
+               "thumb":"",
+               "format":[
+                         "CDr",
+                         "Single",
+                         "Promo"
+                         ],
+               "country":"Japan",
+               "barcode":[
+               
+               ],
+               "uri":"/Kylie-Minogue-I-Believe-In-You-Ultimate-Kylie-Mix/release/9637121",
+               "community":{
+               "want":7,
+               "have":2
+               },
+               "label":[
+                        "EMI",
+                        "EMI Records Ltd.",
+                        "EMI Records Ltd."
+                        ],
+               "catno":"none",
+               "year":"2004",
+               "genre":[
+                        "Electronic",
+                        "Pop"
+                        ],
+               "title":"Kylie Minogue - I Believe In You (Ultimate Kylie Mix)",
+               "resource_url":"https://api.discogs.com/releases/9637121",
+               "type":"release",
+               "id":9637121
+               },
+               {
+               "style":[
+                        "Electro",
+                        "Techno",
+                        "Hardstyle"
+                        ],
+               "thumb":"https://img.discogs.com/WHze_-FQOuNSZL4s5-Ef8J5W7dg=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10701669-1502691728-8124.jpeg.jpg",
+               "format":[
+                         "File",
+                         "MP3"
+                         ],
+               "country":"Netherlands",
+               "barcode":[
+                          "5054282888509",
+                          "NLN6L1700001"
+                          ],
+               "uri":"/Geck-o-Kylie-Extended/release/10701669",
+               "community":{
+               "want":0,
+               "have":3
+               },
+               "label":[
+                        "The Funky Cat"
+                        ],
+               "catno":"CATID009",
+               "year":"2017",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Geck-o - Kylie Extended",
+               "resource_url":"https://api.discogs.com/releases/10701669",
+               "type":"release",
+               "id":10701669
+               },
+               {
+               "style":[
+                        "Techno",
+                        "Industrial"
+                        ],
+               "thumb":"https://img.discogs.com/t8GoN7ecrDaTWlFqdgcfy5Eiyds=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-148757-1292106139.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "33 \u2153 RPM",
+                         "45 RPM",
+                         "EP"
+                         ],
+               "country":"Germany",
+               "barcode":[
+                          "7 18755 74046 0",
+                          "TRESOR 204 A CGB@D&M",
+                          "TRESOR 204 B CGB@D&M"
+                          ],
+               "uri":"/Rumenige-feat-Loktibrada-Petrzalka-EP/release/148757",
+               "community":{
+               "want":234,
+               "have":354
+               },
+               "label":[
+                        "Tresor",
+                        "Tresor Records GmbH",
+                        "Tresor Records GmbH",
+                        "Dubplates & Mastering"
+                        ],
+               "catno":"Tresor 204",
+               "year":"2003",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Rumenige feat. Loktibrada - Petrzalka EP",
+               "resource_url":"https://api.discogs.com/releases/148757",
+               "type":"release",
+               "id":148757
+               },
+               {
+               "style":[
+                        "Electro"
+                        ],
+               "thumb":"https://img.discogs.com/sJVqyY2MUF0d7wF1YSPyeMjVqwc=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1497987-1224179777.jpeg.jpg",
+               "format":[
+                         "File",
+                         "MP3"
+                         ],
+               "country":"Germany",
+               "barcode":[
+               
+               ],
+               "uri":"/Spenza-Kylie-And-Me-Bitslapper/release/1497987",
+               "community":{
+               "want":0,
+               "have":1
+               },
+               "label":[
+                        "Kwik Snax"
+                        ],
+               "catno":"kwsx001",
+               "year":"2008",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Spenza - Kylie And Me / Bitslapper",
+               "resource_url":"https://api.discogs.com/releases/1497987",
+               "type":"release",
+               "id":1497987
+               },
+               {
+               "style":[
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/3drhKBDqN5dAEA5kc2Hn-V7POT8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3416426-1329578882.jpeg.jpg",
+               "format":[
+                         "VHS",
+                         "Promo",
+                         "PAL"
+                         ],
+               "country":"UK",
+               "barcode":[
+               
+               ],
+               "uri":"/KLF-Kylie-Said-To-Jason/release/3416426",
+               "community":{
+               "want":38,
+               "have":4
+               },
+               "label":[
+                        "KLF Communications",
+                        "Appearing Promotions",
+                        "KLF Communications",
+                        "Video Tape Recording PLC"
+                        ],
+               "catno":"none",
+               "year":"1989",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/releases/3416426",
+               "type":"release",
+               "id":3416426
+               },
+               {
+               "style":[
+                        "Electro",
+                        "Deep House"
+                        ],
+               "thumb":"https://img.discogs.com/vYl-OhufxaAXakf46Zq38CGtwAA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2269561-1273497180.jpeg.jpg",
+               "format":[
+                         "File",
+                         "MP3"
+                         ],
+               "country":"Unknown",
+               "barcode":[
+               
+               ],
+               "uri":"/Planetakis-Pogo-in-the-Shoes-of-Kylie-Minogue-EP/release/2269561",
+               "community":{
+               "want":0,
+               "have":1
+               },
+               "label":[
+                        "peng musik"
+                        ],
+               "catno":"8",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Planetakis - Pogo in the Shoes of Kylie Minogue EP",
+               "resource_url":"https://api.discogs.com/releases/2269561",
+               "type":"release",
+               "id":2269561
+               },
+               {
+               "style":[
+                        "Europop",
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/e77Jrvd914YjPFfEeHDGxKIDnAU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1043401-1188913830.jpeg.jpg",
+               "format":[
+                         "CD",
+                         "Album"
+                         ],
+               "country":"Romania",
+               "barcode":[
+                          "5 948204 385224",
+                          "3852-2 / Primul Capitol / by OpticalDisc.RO / 1091",
+                          "IFPI LQ57",
+                          "IFPI ACM01"
+                          ],
+               "uri":"/Akcent-Primul-Capitol/release/1043401",
+               "community":{
+               "want":7,
+               "have":8
+               },
+               "label":[
+                        "NRG!A",
+                        "Roton",
+                        "OpticalDisc.RO",
+                        "SINCRON"
+                        ],
+               "catno":"3852-2",
+               "year":"2006",
+               "genre":[
+                        "Electronic",
+                        "Pop"
+                        ],
+               "title":"Akcent - Primul Capitol",
+               "resource_url":"https://api.discogs.com/releases/1043401",
+               "type":"release",
+               "id":1043401
+               },
+               {
+               "style":[
+                        "House",
+                        "Electro"
+                        ],
+               "thumb":"https://img.discogs.com/_FbYMuHhy7qos2NH6ZbPfgceZYc=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1706593-1238241404.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "Unofficial Release"
+                         ],
+               "country":"Unknown",
+               "barcode":[
+               
+               ],
+               "uri":"/Hydrophonics-Strings-4-Kylie/release/1706593",
+               "community":{
+               "want":5,
+               "have":25
+               },
+               "label":[
+                        "Not On Label (Kylie Minogue)",
+                        "Not On Label (Rhythim Is Rhythim)"
+                        ],
+               "catno":"HYDRO-001",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Hydrophonics* - Strings 4 Kylie",
+               "resource_url":"https://api.discogs.com/releases/1706593",
+               "type":"release",
+               "id":1706593
+               },
+               {
+               "style":[
+                        "Dance-pop"
+                        ],
+               "thumb":"https://img.discogs.com/HgQcT5HMBtl4DynqAfzIG1OSkBw=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8858564-1470240558-2146.jpeg.jpg",
+               "format":[
+                         "Flexi-disc",
+                         "5\u00bd\"",
+                         "45 RPM",
+                         "Single Sided",
+                         "Promo",
+                         "Unofficial Release",
+                         "Mono"
+                         ],
+               "country":"Russia",
+               "barcode":[
+               
+               ],
+               "uri":"/The-KLF-Kylie-Said-To-Jason/release/8858564",
+               "community":{
+               "want":4,
+               "have":1
+               },
+               "label":[
+                        "\u0431\u0443\u0434 \u043a\u043e\u043d"
+                        ],
+               "catno":"13089",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"The KLF - Kylie Said To Jason",
+               "resource_url":"https://api.discogs.com/releases/8858564",
+               "type":"release",
+               "id":8858564
+               },
+               {
+               "style":[
+                        "Progressive Trance"
+                        ],
+               "thumb":"https://img.discogs.com/uareHBxSXSzp6bysB9fiSZLqjxY=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-4029393-1352888476-9583.jpeg.jpg",
+               "format":[
+                         "File",
+                         "MP3",
+                         "Single"
+                         ],
+               "country":"UK",
+               "barcode":[
+                          "887396684171",
+                          "GBJAL1200199",
+                          "GBJAL1200200"
+                          ],
+               "uri":"/Ex-Driver-On-Tour-Kylie/release/4029393",
+               "community":{
+               "want":1,
+               "have":2
+               },
+               "label":[
+                        "Discover Deep",
+                        "Supreme Music",
+                        "Supreme Music"
+                        ],
+               "catno":"DIDEEP14",
+               "year":"2012",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Ex-Driver - On Tour / Kylie",
+               "resource_url":"https://api.discogs.com/releases/4029393",
+               "type":"release",
+               "id":4029393
+               },
+               {
+               "style":[
+                        "House"
+                        ],
+               "thumb":"https://img.discogs.com/eDZjtjt_0EOk7uNBpCDyfWBCCcw=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-842911-1165086794.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "Single Sided",
+                         "Unofficial Release"
+                         ],
+               "country":"UK",
+               "barcode":[
+               
+               ],
+               "uri":"/Kylie-Kylie-Loves-Garlands/release/842911",
+               "community":{
+               "want":4,
+               "have":17
+               },
+               "label":[
+                        "Not On Label (Kylie Minogue)",
+                        "Fast Series"
+                        ],
+               "catno":"FAST001",
+               "year":"2004",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Kylie* - Kylie Loves Garlands",
+               "resource_url":"https://api.discogs.com/releases/842911",
+               "type":"release",
+               "id":842911
+               },
+               {
+               "style":[
+                        "House"
+                        ],
+               "thumb":"https://img.discogs.com/geKd5tZW4MnAk-WSmf5ki165sYM=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3567824-1335609318.jpeg.jpg",
+               "format":[
+                         "Vinyl",
+                         "12\"",
+                         "Single Sided",
+                         "White Label"
+                         ],
+               "country":"Unknown",
+               "barcode":[
+               
+               ],
+               "uri":"/Unknown-Artist-Secret-Service-Vs-Kylie/release/3567824",
+               "community":{
+               "want":1,
+               "have":4
+               },
+               "label":[
+                        "Secret"
+                        ],
+               "catno":"SECRET0001",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Unknown Artist - Secret Service Vs Kylie",
+               "resource_url":"https://api.discogs.com/releases/3567824",
+               "type":"release",
+               "id":3567824
+               },
+               {
+               "style":[
+                        "Noise"
+                        ],
+               "thumb":"https://img.discogs.com/EvwdONEM1RVveePsmNjIpg6Tlqs=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1145168-1201026463.jpeg.jpg",
+               "format":[
+                         "CDr",
+                         "Mini",
+                         "Limited Edition",
+                         "Numbered"
+                         ],
+               "country":"UK",
+               "barcode":[
+               
+               ],
+               "uri":"/Tong-Menn-Filth/release/1145168",
+               "community":{
+               "want":1,
+               "have":2
+               },
+               "label":[
+                        "CatDamm Recordings"
+                        ],
+               "catno":"Damm002",
+               "year":"2006",
+               "genre":[
+                        "Electronic"
+                        ],
+               "title":"Tong Menn - Filth",
+               "resource_url":"https://api.discogs.com/releases/1145168",
+               "type":"release",
+               "id":1145168
+               },
+               {
+               "style":[
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/MPu3zXX1lmnEiP8ZHEmV7ar9HsQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9435175-1480533385-7087.jpeg.jpg",
+               "format":[
+                         "Cassette",
+                         "Album"
+                         ],
+               "country":"Romania",
+               "barcode":[
+                          "5948204385248",
+                          "RNF 45028"
+                          ],
+               "uri":"/Akcent-Primul-Capitol/release/9435175",
+               "community":{
+               "want":0,
+               "have":1
+               },
+               "label":[
+                        "NRG!A",
+                        "Roton",
+                        "SINCRON",
+                        "Roton",
+                        "Roton",
+                        "Gala Records",
+                        "Win Production",
+                        "Code Studio",
+                        "Midi Sound Studio",
+                        "MOF Records",
+                        "Ines Sound & Video",
+                        "Hard B. Productions",
+                        "B'ini\u0219or"
+                        ],
+               "catno":"3852-4",
+               "year":"2006",
+               "genre":[
+                        "Electronic",
+                        "Pop"
+                        ],
+               "title":"Akcent - Primul Capitol",
+               "resource_url":"https://api.discogs.com/releases/9435175",
+               "type":"release",
+               "id":9435175
+               },
+               {
+               "style":[
+                        "Europop",
+                        "Euro House"
+                        ],
+               "thumb":"https://img.discogs.com/e77Jrvd914YjPFfEeHDGxKIDnAU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1043401-1188913830.jpeg.jpg",
+               "format":[
+                         "CD",
+                         "Album"
+                         ],
+               "country":"Romania",
+               "barcode":[
+                          "5 948204 385224",
+                          "3852-2 / Primul Capitol / by OpticalDisc.RO / 1091",
+                          "IFPI LQ57",
+                          "IFPI ACM01"
+                          ],
+               "uri":"/Akcent-Primul-Capitol/master/1098046",
+               "community":{
+               "want":7,
+               "have":9
+               },
+               "label":[
+                        "NRG!A",
+                        "Roton",
+                        "OpticalDisc.RO",
+                        "SINCRON"
+                        ],
+               "catno":"3852-2",
+               "year":"2006",
+               "genre":[
+                        "Electronic",
+                        "Pop"
+                        ],
+               "title":"Akcent - Primul Capitol",
+               "resource_url":"https://api.discogs.com/masters/1098046",
+               "type":"master",
+               "id":1098046
+               }
+               ]
+}

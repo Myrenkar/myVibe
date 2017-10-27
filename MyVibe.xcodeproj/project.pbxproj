@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		730FC1371FA3725300F5C9F9 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC1361FA3725300F5C9F9 /* APIClient.swift */; };
+		730FC1391FA373B000F5C9F9 /* DependenciesProviderAbstractMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC1381FA373B000F5C9F9 /* DependenciesProviderAbstractMock.swift */; };
+		730FC13B1FA3755A00F5C9F9 /* AuthorizationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC13A1FA3755A00F5C9F9 /* AuthorizationControllerTests.swift */; };
+		730FC13D1FA3761E00F5C9F9 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC13C1FA3761E00F5C9F9 /* Keys.swift */; };
 		731882911FA20C9B00D9D865 /* AuthorizationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882901FA20C9B00D9D865 /* AuthorizationController.swift */; };
 		731882A41FA20DBC00D9D865 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882A31FA20DBC00D9D865 /* View.swift */; };
 		731882A61FA20DD400D9D865 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882A51FA20DD400D9D865 /* ViewController.swift */; };
@@ -24,7 +28,6 @@
 		731882C81FA22F0500D9D865 /* UntypedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882C71FA22F0500D9D865 /* UntypedError.swift */; };
 		73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */; };
 		73B67AFA1FA1F4F600C47C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B67AF91FA1F4F600C47C00 /* Assets.xcassets */; };
-		73B67B081FA1F4F600C47C00 /* MyVibeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67B071FA1F4F600C47C00 /* MyVibeTests.swift */; };
 		73B814F51FA1FE47006E4C23 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B814F41FA1FE47006E4C23 /* APIClient.swift */; };
 		73B814F71FA1FE8F006E4C23 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B814F61FA1FE8E006E4C23 /* APIService.swift */; };
 		73B814FA1FA1FEB9006E4C23 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B814F81FA1FEB9006E4C23 /* APIRequest.swift */; };
@@ -44,6 +47,9 @@
 		73DF08241FA256920013C53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DF08221FA256920013C53A /* LaunchScreen.storyboard */; };
 		73DF082E1FA262B50013C53A /* APIQueryParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF082D1FA262B50013C53A /* APIQueryParameter.swift */; };
 		73DF08331FA30F4C0013C53A /* MyVibeKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DF08311FA30F030013C53A /* MyVibeKeys.m */; };
+		73DF0BFB1FA35C130013C53A /* AlbumResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 73DF0BFA1FA35C130013C53A /* AlbumResponse.json */; };
+		73DF0BFD1FA364A70013C53A /* AlbumResponseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF0BFC1FA364A70013C53A /* AlbumResponseTest.swift */; };
+		73DF0C011FA36A830013C53A /* AlbumsRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF0C001FA36A830013C53A /* AlbumsRequestTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		730FC1361FA3725300F5C9F9 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		730FC1381FA373B000F5C9F9 /* DependenciesProviderAbstractMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependenciesProviderAbstractMock.swift; sourceTree = "<group>"; };
+		730FC13A1FA3755A00F5C9F9 /* AuthorizationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationControllerTests.swift; sourceTree = "<group>"; };
+		730FC13C1FA3761E00F5C9F9 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		731882901FA20C9B00D9D865 /* AuthorizationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationController.swift; sourceTree = "<group>"; };
 		731882A21FA20DA100D9D865 /* ApplicationDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDependencies.swift; sourceTree = "<group>"; };
 		731882A31FA20DBC00D9D865 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
@@ -77,7 +87,6 @@
 		73B67AF91FA1F4F600C47C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73B67AFE1FA1F4F600C47C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73B67B031FA1F4F600C47C00 /* MyVibe Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyVibe Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73B67B071FA1F4F600C47C00 /* MyVibeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVibeTests.swift; sourceTree = "<group>"; };
 		73B67B091FA1F4F600C47C00 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		73B67B1E1FA1F78800C47C00 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
 		73B67B1F1FA1F7A800C47C00 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
@@ -107,6 +116,9 @@
 		73DF08301FA30F020013C53A /* MyVibe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyVibe-Bridging-Header.h"; sourceTree = "<group>"; };
 		73DF08311FA30F030013C53A /* MyVibeKeys.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MyVibeKeys.m; path = Pods/CocoaPodsKeys/MyVibeKeys.m; sourceTree = SOURCE_ROOT; };
 		73DF08321FA30F040013C53A /* MyVibeKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyVibeKeys.h; path = Pods/CocoaPodsKeys/MyVibeKeys.h; sourceTree = SOURCE_ROOT; };
+		73DF0BFA1FA35C130013C53A /* AlbumResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AlbumResponse.json; sourceTree = "<group>"; };
+		73DF0BFC1FA364A70013C53A /* AlbumResponseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumResponseTest.swift; sourceTree = "<group>"; };
+		73DF0C001FA36A830013C53A /* AlbumsRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsRequestTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +139,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		730FC1351FA3724600F5C9F9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				730FC1361FA3725300F5C9F9 /* APIClient.swift */,
+				730FC13A1FA3755A00F5C9F9 /* AuthorizationControllerTests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		7318828F1FA20C8C00D9D865 /* Authorization */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +206,7 @@
 			children = (
 				731882C71FA22F0500D9D865 /* UntypedError.swift */,
 				73B815041FA200DC006E4C23 /* Result.swift */,
+				730FC13C1FA3761E00F5C9F9 /* Keys.swift */,
 			);
 			path = Abstract;
 			sourceTree = "<group>";
@@ -220,7 +242,10 @@
 		73B67B061FA1F4F600C47C00 /* MyVibeTests */ = {
 			isa = PBXGroup;
 			children = (
-				73B67B071FA1F4F600C47C00 /* MyVibeTests.swift */,
+				730FC1351FA3724600F5C9F9 /* Network */,
+				73DF0BFF1FA36A6F0013C53A /* Requests */,
+				73DF0BFE1FA36A580013C53A /* Models */,
+				73DF0BF91FA35BE10013C53A /* Resources */,
 			);
 			path = MyVibeTests;
 			sourceTree = "<group>";
@@ -406,6 +431,31 @@
 			path = Keys;
 			sourceTree = "<group>";
 		};
+		73DF0BF91FA35BE10013C53A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73DF0BFA1FA35C130013C53A /* AlbumResponse.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		73DF0BFE1FA36A580013C53A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				73DF0BFC1FA364A70013C53A /* AlbumResponseTest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		73DF0BFF1FA36A6F0013C53A /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				73DF0C001FA36A830013C53A /* AlbumsRequestTests.swift */,
+				730FC1381FA373B000F5C9F9 /* DependenciesProviderAbstractMock.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -499,6 +549,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DF0BFB1FA35C130013C53A /* AlbumResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +561,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				731882AC1FA20ED500D9D865 /* AlbumsViewController.swift in Sources */,
+				730FC13D1FA3761E00F5C9F9 /* Keys.swift in Sources */,
 				731882A61FA20DD400D9D865 /* ViewController.swift in Sources */,
 				73B814F71FA1FE8F006E4C23 /* APIService.swift in Sources */,
 				73DF082E1FA262B50013C53A /* APIQueryParameter.swift in Sources */,
@@ -549,7 +601,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B67B081FA1F4F600C47C00 /* MyVibeTests.swift in Sources */,
+				73DF0BFD1FA364A70013C53A /* AlbumResponseTest.swift in Sources */,
+				730FC13B1FA3755A00F5C9F9 /* AuthorizationControllerTests.swift in Sources */,
+				730FC1391FA373B000F5C9F9 /* DependenciesProviderAbstractMock.swift in Sources */,
+				73DF0C011FA36A830013C53A /* AlbumsRequestTests.swift in Sources */,
+				730FC1371FA3725300F5C9F9 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

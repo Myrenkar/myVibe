@@ -5,7 +5,9 @@ _BUNDLE_NAME = MyVibe Tests
 _BUNDLE_IDENTIFIER = co.smartapps.myvibe.tests
 _BUNDLE_INFOPLIST_PATH = $(SRCROOT)/MyVibe/Resources/Plists/Tests-Info.plist
 
-PRODUCT_MODULE_NAME = MyVibe Tests
+PRODUCT_MODULE_NAME = MyVibeTests
 LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @loader_path/Frameworks
-TEST_HOST = $(BUILT_PRODUCTS_DIR)/My Vibe.app/Test Host
+TEST_HOST = $(BUILT_PRODUCTS_DIR)/MyVibe.app/MyVibe
 BUNDLE_LOADER = $(TEST_HOST)
+
+

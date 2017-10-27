@@ -9,7 +9,7 @@
 import Foundation
 
 struct AlbumRequest: APIRequest {
-    let albumTitle: String
+    private let albumTitle: String
     
     init(albumTitle: String) {
         self.albumTitle = albumTitle

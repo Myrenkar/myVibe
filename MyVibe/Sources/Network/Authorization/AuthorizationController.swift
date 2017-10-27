@@ -10,14 +10,14 @@ import Foundation
 
 final class AuthorizationController {
     
-    private let keys: MyVibeKeys
+    private let keys: Keys
     
-    init() {
-        keys = MyVibeKeys()
+    init(keys: Keys = Keys()) {
+        self.keys = keys
     }
     
     func authorizeRequest(request: inout URLRequest) {
-        let headerValue = "Discogs token=\(keys.aPIToken)"
+        let headerValue = "Discogs token=\(keys.apiToken)"
         request.setValue(headerValue, forHTTPHeaderField: "Authorization")
     }
 }

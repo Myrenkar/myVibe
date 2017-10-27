@@ -30,3 +30,20 @@ public enum APIQueryParameter: Decodable {
         }
     }
 }
+
+extension APIQueryParameter: Equatable {
+    public static func ==(lhs: APIQueryParameter, rhs: APIQueryParameter) -> Bool {
+        switch (lhs, rhs) {
+            case (.int, .int):
+                return lhs == rhs
+            case (.double(let lhs), .double(let rhs)):
+                return lhs == rhs
+            case (.bool(let lhs), .bool(let rhs)):
+                return lhs == rhs
+            case (.string(let lhs), .string(let rhs)):
+                return lhs == rhs
+            default:
+                return false
+        }
+    }
+}

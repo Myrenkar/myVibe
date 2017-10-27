@@ -10,7 +10,5 @@ import Foundation
 
 /// Service for jsonplaceholder
 struct DiscoGSService: APIService {
-    
     var host: String { return "api.discogs.com" }
-    
 }
