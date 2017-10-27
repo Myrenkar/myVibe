@@ -12,7 +12,7 @@ final class AlbumCell: TableViewCell {
     lazy var songNameLabel: UILabel = {
         let label = UILabel()
         
-        label.textColor = .red
+        label.textColor = .blue
         label.translatesAutoresizingMaskIntoConstraints = false
 
         return label
@@ -20,7 +20,7 @@ final class AlbumCell: TableViewCell {
     
     override func setupProperties() {
         super.setupProperties()
-        backgroundColor = .blue
+        backgroundColor = .white
     }
     
     override func setupViewHierarchy() {

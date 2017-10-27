@@ -25,6 +25,6 @@ struct Pagination: Codable {
 }
 
 struct URLS: Codable {
-    let last: String
-    let next: String
+    let last: String?
+    let next: String?
 }

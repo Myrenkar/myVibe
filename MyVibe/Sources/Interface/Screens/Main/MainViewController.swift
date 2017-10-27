@@ -59,7 +59,9 @@ fileprivate extension MainViewController {
                             self.customView.tableView.reloadData()
                         }
                     } catch let error {
-                        self.handleError(title: "Error", message: error.localizedDescription)
+                        DispatchQueue.main.async {
+                            self.handleError(title: "Error", message: error.localizedDescription)
+                        }
                     }
                 }
             case .failure(let error):

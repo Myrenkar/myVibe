@@ -7,3 +7,4 @@ _BUNDLE_NAME = MyVibe
 _BUNDLE_IDENTIFIER = co.smartapps.myvibe$(__BUNDLE_IDENTIFIER_SUFFIX)
 _BUNDLE_INFOPLIST_PATH = $(SRCROOT)/MyVibe/Resources/Plists/Info.plist
 
+SWIFT_OBJC_BRIDGING_HEADER = MyVibe/Resources/Keys/MyVibe-Bridging-Header.h

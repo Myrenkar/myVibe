@@ -43,6 +43,7 @@
 		73DF08201FA255C90013C53A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73DF081E1FA255C90013C53A /* Localizable.strings */; };
 		73DF08241FA256920013C53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DF08221FA256920013C53A /* LaunchScreen.storyboard */; };
 		73DF082E1FA262B50013C53A /* APIQueryParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF082D1FA262B50013C53A /* APIQueryParameter.swift */; };
+		73DF08331FA30F4C0013C53A /* MyVibeKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DF08311FA30F030013C53A /* MyVibeKeys.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,9 @@
 		73DF08211FA255E20013C53A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = ../Storyboards/pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		73DF08231FA256920013C53A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73DF082D1FA262B50013C53A /* APIQueryParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIQueryParameter.swift; sourceTree = "<group>"; };
+		73DF08301FA30F020013C53A /* MyVibe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyVibe-Bridging-Header.h"; sourceTree = "<group>"; };
+		73DF08311FA30F030013C53A /* MyVibeKeys.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MyVibeKeys.m; path = Pods/CocoaPodsKeys/MyVibeKeys.m; sourceTree = SOURCE_ROOT; };
+		73DF08321FA30F040013C53A /* MyVibeKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyVibeKeys.h; path = Pods/CocoaPodsKeys/MyVibeKeys.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +242,7 @@
 		73B67B131FA1F51600C47C00 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				73DF082F1FA30EDC0013C53A /* Keys */,
 				73B67B1B1FA1F6BC00C47C00 /* Storyboards */,
 				73B67B171FA1F55400C47C00 /* Others */,
 				73B67B161FA1F54B00C47C00 /* Assets */,
@@ -391,6 +396,16 @@
 			path = Requests;
 			sourceTree = "<group>";
 		};
+		73DF082F1FA30EDC0013C53A /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				73DF08321FA30F040013C53A /* MyVibeKeys.h */,
+				73DF08311FA30F030013C53A /* MyVibeKeys.m */,
+				73DF08301FA30F020013C53A /* MyVibe-Bridging-Header.h */,
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -441,6 +456,7 @@
 				TargetAttributes = {
 					73B67AEE1FA1F4F500C47C00 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 					};
 					73B67B021FA1F4F600C47C00 = {
 						CreatedOnToolsVersion = 9.0;
@@ -497,6 +513,7 @@
 				731882A61FA20DD400D9D865 /* ViewController.swift in Sources */,
 				73B814F71FA1FE8F006E4C23 /* APIService.swift in Sources */,
 				73DF082E1FA262B50013C53A /* APIQueryParameter.swift in Sources */,
+				73DF08331FA30F4C0013C53A /* MyVibeKeys.m in Sources */,
 				73DF080F1FA2532F0013C53A /* UIKit.UIViewController.swift in Sources */,
 				731882BF1FA21D0500D9D865 /* UIKit.UITableView.swift in Sources */,
 				73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */,
