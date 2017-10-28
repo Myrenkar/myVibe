@@ -11,6 +11,9 @@
 		730FC1391FA373B000F5C9F9 /* DependenciesProviderAbstractMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC1381FA373B000F5C9F9 /* DependenciesProviderAbstractMock.swift */; };
 		730FC13B1FA3755A00F5C9F9 /* AuthorizationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC13A1FA3755A00F5C9F9 /* AuthorizationControllerTests.swift */; };
 		730FC13D1FA3761E00F5C9F9 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC13C1FA3761E00F5C9F9 /* Keys.swift */; };
+		730FC1421FA3DBED00F5C9F9 /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC1411FA3DBED00F5C9F9 /* TrackDetailsViewController.swift */; };
+		730FC1441FA3DBFB00F5C9F9 /* TrackDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC1431FA3DBFB00F5C9F9 /* TrackDetailsView.swift */; };
+		730FC1461FA44B4C00F5C9F9 /* NetworkActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC1451FA44B4C00F5C9F9 /* NetworkActivityManager.swift */; };
 		731882911FA20C9B00D9D865 /* AuthorizationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882901FA20C9B00D9D865 /* AuthorizationController.swift */; };
 		731882A41FA20DBC00D9D865 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882A31FA20DBC00D9D865 /* View.swift */; };
 		731882A61FA20DD400D9D865 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882A51FA20DD400D9D865 /* ViewController.swift */; };
@@ -67,6 +70,9 @@
 		730FC1381FA373B000F5C9F9 /* DependenciesProviderAbstractMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependenciesProviderAbstractMock.swift; sourceTree = "<group>"; };
 		730FC13A1FA3755A00F5C9F9 /* AuthorizationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationControllerTests.swift; sourceTree = "<group>"; };
 		730FC13C1FA3761E00F5C9F9 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		730FC1411FA3DBED00F5C9F9 /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
+		730FC1431FA3DBFB00F5C9F9 /* TrackDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsView.swift; sourceTree = "<group>"; };
+		730FC1451FA44B4C00F5C9F9 /* NetworkActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkActivityManager.swift; sourceTree = "<group>"; };
 		731882901FA20C9B00D9D865 /* AuthorizationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationController.swift; sourceTree = "<group>"; };
 		731882A21FA20DA100D9D865 /* ApplicationDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDependencies.swift; sourceTree = "<group>"; };
 		731882A31FA20DBC00D9D865 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
@@ -146,6 +152,15 @@
 				730FC13A1FA3755A00F5C9F9 /* AuthorizationControllerTests.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		730FC1401FA3DB2600F5C9F9 /* Track details */ = {
+			isa = PBXGroup;
+			children = (
+				730FC1411FA3DBED00F5C9F9 /* TrackDetailsViewController.swift */,
+				730FC1431FA3DBFB00F5C9F9 /* TrackDetailsView.swift */,
+			);
+			path = "Track details";
 			sourceTree = "<group>";
 		};
 		7318828F1FA20C8C00D9D865 /* Authorization */ = {
@@ -316,6 +331,7 @@
 		73B67B181FA1F5E600C47C00 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				730FC1401FA3DB2600F5C9F9 /* Track details */,
 				731882AA1FA20EB600D9D865 /* Tracks */,
 			);
 			path = Screens;
@@ -363,6 +379,7 @@
 				73B814FE1FA1FF7A006E4C23 /* Services */,
 				73B814F11FA1FE30006E4C23 /* Core */,
 				73B815011FA2009F006E4C23 /* DefaultAPIClient.swift */,
+				730FC1451FA44B4C00F5C9F9 /* NetworkActivityManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -577,6 +594,7 @@
 				731882C81FA22F0500D9D865 /* UntypedError.swift in Sources */,
 				73B815021FA2009F006E4C23 /* DefaultAPIClient.swift in Sources */,
 				731882A91FA20E8A00D9D865 /* ApplicationController.swift in Sources */,
+				730FC1421FA3DBED00F5C9F9 /* TrackDetailsViewController.swift in Sources */,
 				73B815001FA1FFBC006E4C23 /* DiscoGSService.swift in Sources */,
 				731882C61FA22D3600D9D865 /* Album.swift in Sources */,
 				73DF080B1FA2349E0013C53A /* Pagination.swift in Sources */,
@@ -590,8 +608,10 @@
 				73B814FB1FA1FEB9006E4C23 /* APIResponse.swift in Sources */,
 				73DF08111FA2534F0013C53A /* UIKit.UIAlertAction.swift in Sources */,
 				73B814FD1FA1FEFB006E4C23 /* APIError.swift in Sources */,
+				730FC1441FA3DBFB00F5C9F9 /* TrackDetailsView.swift in Sources */,
 				731882A41FA20DBC00D9D865 /* View.swift in Sources */,
 				731882911FA20C9B00D9D865 /* AuthorizationController.swift in Sources */,
+				730FC1461FA44B4C00F5C9F9 /* NetworkActivityManager.swift in Sources */,
 				73DF080D1FA24D970013C53A /* AlbumResponse.swift in Sources */,
 				731882A71FA20E5200D9D865 /* ApplicationDependencies.swift in Sources */,
 			);

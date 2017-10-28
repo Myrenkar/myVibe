@@ -10,14 +10,17 @@ import Foundation
 
 struct AlbumRequest: APIRequest {
     private let albumTitle: String
+    private let page: Int
     
-    init(albumTitle: String) {
+    init(albumTitle: String, page: Int) {
         self.albumTitle = albumTitle
+        self.page = page
     }
     
     var query: [String : APIQueryParameter] {
         return [
-            "track" : .string(self.albumTitle)
+            "track" : .string(self.albumTitle),
+            "page" : .int(self.page)
         ]
     }
     

@@ -19,20 +19,15 @@ final class AlbumsView: View {
     }()
     
     private(set) lazy var tableView: UITableView = {
-        let tableView = UITableView()
+        let tableView = UITableView(frame: .zero)
         tableView.separatorStyle = .none
         tableView.translatesAutoresizingMaskIntoConstraints = false
-        tableView.backgroundColor = .white
+        tableView.keyboardDismissMode = .onDrag
 
         /// To hide empty cells
         tableView.tableFooterView = UIView(frame: .zero)
         return tableView
     }()
-
-    override func setupProperties() {
-        super.setupProperties()
-        backgroundColor = .white
-    }
     
     override func setupViewHierarchy() {
         super.setupViewHierarchy()

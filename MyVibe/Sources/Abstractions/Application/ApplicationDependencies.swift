@@ -14,7 +14,9 @@ protocol ApplicationDependenciesProvider {
 }
 
 final class DefaultApplicationDependenciesProvider: ApplicationDependenciesProvider {
+    private let networkActivityManager = NetworkActivityManager()
+
     private(set) lazy var apiClient: APIClient = { [unowned self] in
-       return DefaultAPIClient()
+       return DefaultAPIClient(networkActivityManager: networkActivityManager)
     }()
 }

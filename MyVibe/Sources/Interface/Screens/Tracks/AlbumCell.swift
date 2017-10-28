@@ -12,7 +12,8 @@ final class AlbumCell: TableViewCell {
     lazy var songNameLabel: UILabel = {
         let label = UILabel()
         
-        label.textColor = .blue
+        label.textColor = .black
+        label.font = UIFont.systemFont(ofSize: 12, weight: .light)
         label.translatesAutoresizingMaskIntoConstraints = false
 
         return label
@@ -31,6 +32,6 @@ final class AlbumCell: TableViewCell {
     override func setupLayoutConstraints() {
         super.setupLayoutConstraints()
         
-        songNameLabel.constrainEdges(to: self)
+        songNameLabel.constrainEdges(to: self, insets: UIEdgeInsetsMake(0, 8, 0, 36))
     }
 }

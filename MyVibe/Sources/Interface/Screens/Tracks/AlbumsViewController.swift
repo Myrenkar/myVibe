@@ -13,6 +13,10 @@ final class AlbumsViewController: ViewController<AlbumsView>, UITableViewDataSou
     private let dependencies: ApplicationDependenciesProvider
     private var albums: [Album]
     
+    private var albumResponse: AlbumResponse?
+    private var albumTitle: String?
+    private var currentPage: Int?
+    
     init(dependencies: ApplicationDependenciesProvider) {
         self.dependencies = dependencies
         self.albums = []
@@ -28,6 +32,8 @@ final class AlbumsViewController: ViewController<AlbumsView>, UITableViewDataSou
         customView.tableView.dataSource = self
     }
     
+    // MARK: UITableViewDelegate
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return albums.count
     }
@@ -36,37 +42,55 @@ final class AlbumsViewController: ViewController<AlbumsView>, UITableViewDataSou
         let cell: AlbumCell = tableView.dequeue()
         let currentItem = albums[indexPath.row]
         cell.songNameLabel.text = currentItem.title
+        cell.accessoryType = .disclosureIndicator
         return cell
     }
     
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        guard let albumResponse = albumResponse, let page = currentPage, let albumTitle = albumTitle, indexPath.row == albums.count - 1 else { return }
+        
+        if page < albumResponse.pagination.pages  {
+            currentPage! += 1
+            getAlbums(withTitle: albumTitle, page: currentPage!)
+        } else {
+            tableView.tableFooterView = nil
+        }
+    }
+    
+    // MARK: UISearchBar Delegate
+    
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         guard let searchBarText = searchBar.text else { return }
-        getAlbums(withTitle: searchBarText)
+        albumTitle  = searchBarText
+        getAlbums(withTitle: searchBarText, page: 1)
+        currentPage = 1
     }
 }
 
 fileprivate extension AlbumsViewController {
-    fileprivate func getAlbums(withTitle title: String) {
-        dependencies.apiClient.perform(request: AlbumRequest(albumTitle: title)) { [unowned self] result in
+    fileprivate func getAlbums(withTitle title: String, page: Int) {
+        dependencies.apiClient.perform(request: AlbumRequest(albumTitle: title, page: page)) { [unowned self] result in
+            self.customView.resignFirstResponder()
             switch result {
-            case .success(let response):
-                if let data = response.data {
-                    let decoder = JSONDecoder()
-                    do {
-                        let albumResponse = try decoder.decode(AlbumResponse.self, from: data)
-                        self.albums = albumResponse.albums
-                        DispatchQueue.main.async {
-                            self.customView.tableView.reloadData()
-                        }
-                    } catch let error {
-                        DispatchQueue.main.async {
-                            self.handleError(title: "Error", message: error.localizedDescription)
+                case .success(let response):
+                    if let data = response.data {
+                        let decoder = JSONDecoder()
+                        do {
+                            let deodedAlbumResponse = try decoder.decode(AlbumResponse.self, from: data)
+                            self.albumResponse = deodedAlbumResponse
+                            self.albums.append(contentsOf: deodedAlbumResponse.albums)
+                            DispatchQueue.main.async {
+                                self.customView.tableView.reloadData()
+                            }
+                        } catch let error {
+                            DispatchQueue.main.async {
+                                self.handleError(title: "Error", message: error.localizedDescription)
+                            }
                         }
                     }
+                case .failure(let error):
+                    self.handleError(title: "Error", message: error.localizedDescription)
                 }
-            case .failure(let error):
-                self.handleError(title: "Error", message: error.localizedDescription)
-            }
         }
     }
 }

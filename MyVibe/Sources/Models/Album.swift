@@ -15,7 +15,7 @@ struct Album: Codable {
     let uri: String
     let type: String
     let id: Int
-    let resourceURL: String
+    let resourceURL: URL?
     
     private enum CodingKeys: String, CodingKey {
         case title

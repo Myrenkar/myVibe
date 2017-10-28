@@ -14,14 +14,16 @@ final class DefaultAPIClient: APIClient {
     
     private let session: URLSession
     private let autorizationController: AuthorizationController
+    private let networkActivityManager: NetworkActivityManager
     
     // MARK: Initializers
     
     /// Initializes DefaultAPIClient
     ///
     /// - Parameter session: URLSession to use - default is `.shared`
-    init(session: URLSession = .shared) {
+    init(session: URLSession = .shared, networkActivityManager: NetworkActivityManager) {
         self.session = session
+        self.networkActivityManager = networkActivityManager
         self.autorizationController = AuthorizationController()
     }
     
@@ -31,11 +33,13 @@ final class DefaultAPIClient: APIClient {
         }
     }
     
-    func send(request: APIRequest, completionHandler: @escaping (Result<APIResponse>) -> ()) {
+    private func send(request: APIRequest, completionHandler: @escaping (Result<APIResponse>) -> ()) {
         do {
             var urlRequest = try URLRequest(request: request)
             autorizationController.authorizeRequest(request: &urlRequest)
+            networkActivityManager.incrementActivityCount()
             let task = self.session.dataTask(with: urlRequest) { data, response, error in
+                self.networkActivityManager.decrementActivityCount()
                 if let error = error {
                     if (error as NSError).code == -1009 {
                         completionHandler(Result<APIResponse>.failure(APIError.internetConnectionUnavailable))

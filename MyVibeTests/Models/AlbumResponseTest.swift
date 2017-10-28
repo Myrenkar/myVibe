@@ -35,7 +35,6 @@ final class AlbumResponseTest: XCTestCase {
     }
     
     func testProperties() {
-        
         XCTAssertEqual(sut.pagination.perPage, 50)
         XCTAssertEqual(sut.pagination.pages, 13)
         XCTAssertEqual(sut.pagination.page, 1)
