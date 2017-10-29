@@ -43,7 +43,7 @@ final class AlbumResponseTest: XCTestCase {
         XCTAssertEqual(sut.pagination.urls.next, "https://api.discogs.com/database/search?track=kylie&per_page=50&page=2")
         XCTAssertEqual(sut.albums.isEmpty, false)
         XCTAssertEqual(sut.albums.first!.title, "Akcent - Kylie")
-        XCTAssertEqual(sut.albums.first!.resourceURL, "https://api.discogs.com/releases/1240341")
+        XCTAssertEqual(sut.albums.first!.resourceURL, URL(string: "https://api.discogs.com/releases/1240341")!)
         XCTAssertEqual(sut.albums.first!.id, 1240341)
         XCTAssertEqual(sut.albums.first!.thumb, "https://img.discogs.com/g1fAFuI9iugY-KDibEnORokcXk8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1240341-1269872742.jpeg.jpg")
   }

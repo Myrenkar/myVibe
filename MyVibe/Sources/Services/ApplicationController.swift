@@ -14,7 +14,9 @@ final class ApplicationController {
 
     private let dependencies: ApplicationDependenciesProvider
 
-    private(set) lazy var rootViewController: UIViewController = {
-        AlbumsViewController(dependencies: self.dependencies)
+    private(set) lazy var rootViewController: UINavigationController = {
+        let albumsViewController = AlbumsViewController(dependencies: self.dependencies)
+        let navigationController = UINavigationController(rootViewController: albumsViewController)
+        return navigationController
     }()
 }

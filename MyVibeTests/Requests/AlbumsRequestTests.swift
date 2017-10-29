@@ -15,7 +15,7 @@ final class AlbumsRequestTest: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        sut = AlbumRequest(albumTitle: "fixed.title")
+        sut = AlbumRequest(albumTitle: "fixed.title", page: 10)
     }
     
     override func tearDown() {
@@ -30,7 +30,9 @@ final class AlbumsRequestTest: XCTestCase {
     func testQuery() {
         var query: [String : APIQueryParameter] {
             return [
+                 "page" : .int(10),
                 "track" : .string("fixed.title")
+               
             ]
         }
         XCTAssertEqual(sut.query, query)

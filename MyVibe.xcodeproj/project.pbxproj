@@ -29,6 +29,7 @@
 		731882C11FA2204300D9D865 /* AlbumRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882C01FA2204300D9D865 /* AlbumRequest.swift */; };
 		731882C61FA22D3600D9D865 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882C51FA22D3600D9D865 /* Album.swift */; };
 		731882C81FA22F0500D9D865 /* UntypedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882C71FA22F0500D9D865 /* UntypedError.swift */; };
+		7339A3201FA4E347003524F2 /* RemoteImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339A31F1FA4E347003524F2 /* RemoteImageDownloader.swift */; };
 		73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */; };
 		73B67AFA1FA1F4F600C47C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B67AF91FA1F4F600C47C00 /* Assets.xcassets */; };
 		73B814F51FA1FE47006E4C23 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B814F41FA1FE47006E4C23 /* APIClient.swift */; };
@@ -88,6 +89,7 @@
 		731882C01FA2204300D9D865 /* AlbumRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRequest.swift; sourceTree = "<group>"; };
 		731882C51FA22D3600D9D865 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		731882C71FA22F0500D9D865 /* UntypedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UntypedError.swift; sourceTree = "<group>"; };
+		7339A31F1FA4E347003524F2 /* RemoteImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageDownloader.swift; sourceTree = "<group>"; };
 		73B67AEF1FA1F4F500C47C00 /* MyVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73B67AF91FA1F4F600C47C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -226,6 +228,14 @@
 			path = Abstract;
 			sourceTree = "<group>";
 		};
+		7339A31E1FA4DEA3003524F2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7339A31F1FA4E347003524F2 /* RemoteImageDownloader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		73B67AE61FA1F4F500C47C00 = {
 			isa = PBXGroup;
 			children = (
@@ -268,12 +278,13 @@
 		73B67B121FA1F50E00C47C00 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				731882BB1FA21CC400D9D865 /* Protocols */,
 				731882941FA20DA100D9D865 /* Abstractions */,
 				73B815061FA20144006E4C23 /* Extensions */,
+				7339A31E1FA4DEA3003524F2 /* Helpers */,
+				73B67B191FA1F68300C47C00 /* Interface */,
 				73B815031FA200D3006E4C23 /* Models */,
 				73B814F01FA1FE06006E4C23 /* Network */,
-				73B67B191FA1F68300C47C00 /* Interface */,
+				731882BB1FA21CC400D9D865 /* Protocols */,
 				73B67B1A1FA1F69200C47C00 /* Services */,
 			);
 			path = Sources;
@@ -282,11 +293,11 @@
 		73B67B131FA1F51600C47C00 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				73DF082F1FA30EDC0013C53A /* Keys */,
-				73B67B1B1FA1F6BC00C47C00 /* Storyboards */,
-				73B67B171FA1F55400C47C00 /* Others */,
 				73B67B161FA1F54B00C47C00 /* Assets */,
+				73DF082F1FA30EDC0013C53A /* Keys */,
+				73B67B171FA1F55400C47C00 /* Others */,
 				73B67B151FA1F53400C47C00 /* Plists */,
+				73B67B1B1FA1F6BC00C47C00 /* Storyboards */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -331,8 +342,8 @@
 		73B67B181FA1F5E600C47C00 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				730FC1401FA3DB2600F5C9F9 /* Track details */,
 				731882AA1FA20EB600D9D865 /* Tracks */,
+				730FC1401FA3DB2600F5C9F9 /* Track details */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -585,6 +596,7 @@
 				73DF08331FA30F4C0013C53A /* MyVibeKeys.m in Sources */,
 				73DF080F1FA2532F0013C53A /* UIKit.UIViewController.swift in Sources */,
 				731882BF1FA21D0500D9D865 /* UIKit.UITableView.swift in Sources */,
+				7339A3201FA4E347003524F2 /* RemoteImageDownloader.swift in Sources */,
 				73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */,
 				73B8150A1FA2016F006E4C23 /* Foundation.URLComponents.swift in Sources */,
 				731882AE1FA20EEA00D9D865 /* AlbumsView.swift in Sources */,

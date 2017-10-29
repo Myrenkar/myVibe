@@ -8,3 +8,4 @@
 
 "ui_alert_action.ok" = "OK";
 "searchbar.placeholder" = "Search for favourite album";
+"albums.title" = "Albums";

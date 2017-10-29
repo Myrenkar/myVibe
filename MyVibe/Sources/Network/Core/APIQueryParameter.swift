@@ -34,7 +34,7 @@ public enum APIQueryParameter: Decodable {
 extension APIQueryParameter: Equatable {
     public static func ==(lhs: APIQueryParameter, rhs: APIQueryParameter) -> Bool {
         switch (lhs, rhs) {
-            case (.int, .int):
+            case (.int(let lhs), .int(let rhs)):
                 return lhs == rhs
             case (.double(let lhs), .double(let rhs)):
                 return lhs == rhs

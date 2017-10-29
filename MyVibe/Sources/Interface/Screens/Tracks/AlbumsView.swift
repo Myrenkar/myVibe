@@ -40,7 +40,7 @@ final class AlbumsView: View {
         NSLayoutConstraint.activate([
             searchBar.leadingAnchor.constraint(equalTo: leadingAnchor),
             searchBar.trailingAnchor.constraint(equalTo: trailingAnchor),
-            searchBar.topAnchor.constraint(equalTo: topAnchor, constant: 32),
+            searchBar.topAnchor.constraint(equalTo: topAnchor, constant: 64),
             searchBar.heightAnchor.constraint(equalToConstant: 44),
             
             tableView.leadingAnchor.constraint(equalTo: leadingAnchor),

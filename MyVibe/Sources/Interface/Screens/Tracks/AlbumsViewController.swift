@@ -25,6 +25,8 @@ final class AlbumsViewController: ViewController<AlbumsView>, UITableViewDataSou
     
     override func setupProperties() {
         super.setupProperties()
+        title = .localized("albums.title")
+        
         customView.tableView.registerClass(AlbumCell.self)
         
         customView.searchBar.delegate = self
@@ -55,6 +57,13 @@ final class AlbumsViewController: ViewController<AlbumsView>, UITableViewDataSou
         } else {
             tableView.tableFooterView = nil
         }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedItem = albums[indexPath.row]
+        
+        let trackDetailsViewController = TrackDetailsVieWController(album: selectedItem)
+        navigationController?.pushViewController(trackDetailsViewController, animated: true)
     }
     
     // MARK: UISearchBar Delegate

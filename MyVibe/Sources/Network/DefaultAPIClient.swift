@@ -9,7 +9,6 @@
 import Foundation
 
 final class DefaultAPIClient: APIClient {
-    
     // MARK: Properties
     
     private let session: URLSession
@@ -32,6 +31,8 @@ final class DefaultAPIClient: APIClient {
             self.send(request: request, completionHandler: completionHandler)
         }
     }
+    
+    // MARK: Private
     
     private func send(request: APIRequest, completionHandler: @escaping (Result<APIResponse>) -> ()) {
         do {

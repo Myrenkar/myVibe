@@ -26,7 +26,7 @@ final class AuthorizationControllerTests: XCTestCase {
     
     func testProperties() {
         do {
-            let albumRequest = AlbumRequest(albumTitle: "fixed.title")
+            let albumRequest = AlbumRequest(albumTitle: "fixed.title", page: 10)
             request = try URLRequest(request: albumRequest)
         } catch let error {
             fatalError(error.localizedDescription)
