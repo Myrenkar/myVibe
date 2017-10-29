@@ -62,7 +62,7 @@ final class AlbumsViewController: ViewController<AlbumsView>, UITableViewDataSou
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedItem = albums[indexPath.row]
         
-        let trackDetailsViewController = TrackDetailsVieWController(album: selectedItem)
+        let trackDetailsViewController = TrackDetailsVieWController(trackId: selectedItem.id, dependencies: self.dependencies)
         navigationController?.pushViewController(trackDetailsViewController, animated: true)
     }
     
@@ -79,7 +79,6 @@ final class AlbumsViewController: ViewController<AlbumsView>, UITableViewDataSou
 fileprivate extension AlbumsViewController {
     fileprivate func getAlbums(withTitle title: String, page: Int) {
         dependencies.apiClient.perform(request: AlbumRequest(albumTitle: title, page: page)) { [unowned self] result in
-            self.customView.resignFirstResponder()
             switch result {
                 case .success(let response):
                     if let data = response.data {
@@ -93,12 +92,14 @@ fileprivate extension AlbumsViewController {
                             }
                         } catch let error {
                             DispatchQueue.main.async {
-                                self.handleError(title: "Error", message: error.localizedDescription)
+                                self.handleError(title: .localized("general.error.title"), message: error.localizedDescription)
                             }
                         }
                     }
                 case .failure(let error):
-                    self.handleError(title: "Error", message: error.localizedDescription)
+                    DispatchQueue.main.async {
+                        self.handleError(title: .localized("general.error.title"), message: error.localizedDescription)
+                    }
                 }
         }
     }

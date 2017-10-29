@@ -29,6 +29,9 @@
 		731882C11FA2204300D9D865 /* AlbumRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882C01FA2204300D9D865 /* AlbumRequest.swift */; };
 		731882C61FA22D3600D9D865 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882C51FA22D3600D9D865 /* Album.swift */; };
 		731882C81FA22F0500D9D865 /* UntypedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731882C71FA22F0500D9D865 /* UntypedError.swift */; };
+		731B6B8B1FA5FEB900C6D30E /* ReleasesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B8A1FA5FEB900C6D30E /* ReleasesRequest.swift */; };
+		731B6B8D1FA5FF2F00C6D30E /* Release.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B8C1FA5FF2F00C6D30E /* Release.swift */; };
+		731B6B8F1FA5FFA400C6D30E /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B8E1FA5FFA400C6D30E /* Artist.swift */; };
 		7339A3201FA4E347003524F2 /* RemoteImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339A31F1FA4E347003524F2 /* RemoteImageDownloader.swift */; };
 		73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */; };
 		73B67AFA1FA1F4F600C47C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B67AF91FA1F4F600C47C00 /* Assets.xcassets */; };
@@ -89,6 +92,9 @@
 		731882C01FA2204300D9D865 /* AlbumRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRequest.swift; sourceTree = "<group>"; };
 		731882C51FA22D3600D9D865 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		731882C71FA22F0500D9D865 /* UntypedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UntypedError.swift; sourceTree = "<group>"; };
+		731B6B8A1FA5FEB900C6D30E /* ReleasesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleasesRequest.swift; sourceTree = "<group>"; };
+		731B6B8C1FA5FF2F00C6D30E /* Release.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Release.swift; sourceTree = "<group>"; };
+		731B6B8E1FA5FFA400C6D30E /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		7339A31F1FA4E347003524F2 /* RemoteImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageDownloader.swift; sourceTree = "<group>"; };
 		73B67AEF1FA1F4F500C47C00 /* MyVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -423,6 +429,8 @@
 				731882C51FA22D3600D9D865 /* Album.swift */,
 				73DF080A1FA2349E0013C53A /* Pagination.swift */,
 				73DF080C1FA24D960013C53A /* AlbumResponse.swift */,
+				731B6B8C1FA5FF2F00C6D30E /* Release.swift */,
+				731B6B8E1FA5FFA400C6D30E /* Artist.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -445,6 +453,7 @@
 			isa = PBXGroup;
 			children = (
 				731882C01FA2204300D9D865 /* AlbumRequest.swift */,
+				731B6B8A1FA5FEB900C6D30E /* ReleasesRequest.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -589,6 +598,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				731882AC1FA20ED500D9D865 /* AlbumsViewController.swift in Sources */,
+				731B6B8D1FA5FF2F00C6D30E /* Release.swift in Sources */,
 				730FC13D1FA3761E00F5C9F9 /* Keys.swift in Sources */,
 				731882A61FA20DD400D9D865 /* ViewController.swift in Sources */,
 				73B814F71FA1FE8F006E4C23 /* APIService.swift in Sources */,
@@ -603,6 +613,7 @@
 				73B814FA1FA1FEB9006E4C23 /* APIRequest.swift in Sources */,
 				731882B81FA21C8100D9D865 /* AlbumCell.swift in Sources */,
 				731882B21FA20FDA00D9D865 /* UIKit.UIView.swift in Sources */,
+				731B6B8B1FA5FEB900C6D30E /* ReleasesRequest.swift in Sources */,
 				731882C81FA22F0500D9D865 /* UntypedError.swift in Sources */,
 				73B815021FA2009F006E4C23 /* DefaultAPIClient.swift in Sources */,
 				731882A91FA20E8A00D9D865 /* ApplicationController.swift in Sources */,
@@ -619,6 +630,7 @@
 				73B814F51FA1FE47006E4C23 /* APIClient.swift in Sources */,
 				73B814FB1FA1FEB9006E4C23 /* APIResponse.swift in Sources */,
 				73DF08111FA2534F0013C53A /* UIKit.UIAlertAction.swift in Sources */,
+				731B6B8F1FA5FFA400C6D30E /* Artist.swift in Sources */,
 				73B814FD1FA1FEFB006E4C23 /* APIError.swift in Sources */,
 				730FC1441FA3DBFB00F5C9F9 /* TrackDetailsView.swift in Sources */,
 				731882A41FA20DBC00D9D865 /* View.swift in Sources */,

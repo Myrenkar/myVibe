@@ -32,7 +32,7 @@ final class TrackDetailsView: View {
         return stylesLabel
     }()
  
-    lazy var typeLabel: UILabel = {
+    lazy var yearLabel: UILabel = {
         let typeLabel = UILabel()
         typeLabel.translatesAutoresizingMaskIntoConstraints = false
         return typeLabel
@@ -40,7 +40,7 @@ final class TrackDetailsView: View {
     
     override func setupViewHierarchy() {
         super.setupViewHierarchy()
-        [imageView, titleLabel, stylesLabel, typeLabel].forEach(addSubview)
+        [imageView, titleLabel, stylesLabel, yearLabel].forEach(addSubview)
     }
     
     override func setupLayoutConstraints() {
@@ -52,9 +52,9 @@ final class TrackDetailsView: View {
             imageView.widthAnchor.constraint(equalToConstant: 180),
             imageView.heightAnchor.constraint(equalToConstant: 180),
             
-            typeLabel.leadingAnchor.constraint(equalTo: imageView.trailingAnchor, constant: 8),
-            typeLabel.trailingAnchor.constraint(equalTo: layoutMarginsGuide.trailingAnchor),
-            typeLabel.topAnchor.constraint(equalTo: imageView.centerYAnchor),
+            yearLabel.leadingAnchor.constraint(equalTo: imageView.trailingAnchor, constant: 8),
+            yearLabel.trailingAnchor.constraint(equalTo: layoutMarginsGuide.trailingAnchor),
+            yearLabel.topAnchor.constraint(equalTo: imageView.centerYAnchor),
             
             titleLabel.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor, constant: 8),
             titleLabel.trailingAnchor.constraint(equalTo: layoutMarginsGuide.trailingAnchor),
