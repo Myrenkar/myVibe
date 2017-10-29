@@ -9,7 +9,6 @@
 import Foundation
 
 struct ArtistDetails: Codable {
-    let profile: String
-    let members: [Member]
-    let urls: [URL]
+    let profile: String?
+    let members: [Member]?
 }

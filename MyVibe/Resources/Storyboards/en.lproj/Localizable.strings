@@ -13,3 +13,7 @@
 
 "albums.title" = "Albums";
 "albums.artist_button.title" = "See artist's details";
+
+"artist.members.title" = "Members";
+"artist.member.active" = "Active";
+"artist.member.inactive" = "Not a member anymore";

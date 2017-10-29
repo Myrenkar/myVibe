@@ -13,3 +13,7 @@
 
 "albums.title" = "Albumy";
 "albums.artist_button.title" = "Zobacz szczegóły artysty";
+
+"artist.members.title" = "Członkowie";
+"artist.member.active" = "Aktywny";
+"artist.member.inactive" = "Były członek zespołu";

@@ -468,8 +468,8 @@
 		73B815031FA200D3006E4C23 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				731B6B9C1FA60CA500C6D30E /* Album */,
 				731882C41FA22D2200D9D865 /* Abstract */,
+				731B6B9C1FA60CA500C6D30E /* Album */,
 				731B6B9B1FA60C8D00C6D30E /* Artists */,
 			);
 			path = Models;

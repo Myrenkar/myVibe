@@ -18,6 +18,23 @@ final class ArtistDetailsView: View {
         return label
     }()
     
+    private(set) lazy var tableView: UITableView = {
+        let tableView = UITableView()
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+        tableView.backgroundColor = .white
+        tableView.tableFooterView = UIView(frame: .zero)
+        tableView.separatorStyle = .none
+        return tableView
+    }()
+    
+    private lazy var tableViewTitleLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.font = UIFont.systemFont(ofSize: 18)
+        label.text = .localized("artist.members.title")
+        return label
+    }()
+    
     private lazy var scrollView: UIScrollView = {
         let scrollView = UIScrollView()
         scrollView.translatesAutoresizingMaskIntoConstraints = false
@@ -28,7 +45,7 @@ final class ArtistDetailsView: View {
     override func setupViewHierarchy() {
         super.setupViewHierarchy()
         
-        [profileLabel].forEach(scrollView.addSubview)
+        [profileLabel, tableView, tableViewTitleLabel].forEach(scrollView.addSubview)
         addSubview(scrollView)
     }
     
@@ -39,8 +56,17 @@ final class ArtistDetailsView: View {
         NSLayoutConstraint.activate([
             profileLabel.leadingAnchor.constraint(equalTo: scrollView.layoutMarginsGuide.leadingAnchor, constant: 8),
             profileLabel.trailingAnchor.constraint(equalTo: scrollView.layoutMarginsGuide.trailingAnchor),
-            profileLabel.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 72),
-            profileLabel.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor)
+            profileLabel.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 16),
+            
+            tableViewTitleLabel.leadingAnchor.constraint(equalTo: scrollView.layoutMarginsGuide.leadingAnchor, constant: 8),
+            tableViewTitleLabel.trailingAnchor.constraint(equalTo: scrollView.layoutMarginsGuide.trailingAnchor),
+            tableViewTitleLabel.topAnchor.constraint(equalTo: profileLabel.bottomAnchor, constant: 16),
+            
+            tableView.leadingAnchor.constraint(equalTo: scrollView.layoutMarginsGuide.leadingAnchor),
+            tableView.trailingAnchor.constraint(equalTo: scrollView.layoutMarginsGuide.trailingAnchor),
+            tableView.topAnchor.constraint(equalTo: tableViewTitleLabel.bottomAnchor, constant: 16),
+            tableView.heightAnchor.constraint(equalToConstant: 180),
+            tableView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor)
         ])
     }
 }
