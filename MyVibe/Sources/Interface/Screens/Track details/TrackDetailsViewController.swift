@@ -59,7 +59,7 @@ final class TrackDetailsVieWController: ViewController<TrackDetailsView> {
     }
     
     private func distribute(withRelease release: Release) {
-        customView.stylesLabel.text = release.styles.joined(separator: "\n")
+        customView.stylesLabel.text = release.styles?.joined(separator: "\n")
         customView.yearLabel.text = release.released
         customView.titleLabel.text = release.title
         

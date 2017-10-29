@@ -10,8 +10,8 @@ import Foundation
 
 struct Release: Codable {
     
-    let styles: [String]
-    let released: String
+    let styles: [String]?
+    let released: String?
     let artists: [Artist]
     let thumb: String?
     let title: String
