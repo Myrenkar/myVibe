@@ -10,6 +10,7 @@ import Foundation
 
 final class TrackDetailsVieWController: ViewController<TrackDetailsView> {
     private let trackId: Int
+    private var artistId: Int?
     private let dependencies: ApplicationDependenciesProvider
     private let imageDownloader: RemoteImageDownloader
     
@@ -62,6 +63,11 @@ final class TrackDetailsVieWController: ViewController<TrackDetailsView> {
         customView.yearLabel.text = release.released
         customView.titleLabel.text = release.title
         
+        if let artist = release.artists.first {
+            self.artistId = artist.id
+            title = artist.name
+        }
+        
         if let thumb = release.thumb, let thumbURL = URL(string: thumb) {
             loadImage(withURL: thumbURL)
         }
@@ -81,6 +87,10 @@ final class TrackDetailsVieWController: ViewController<TrackDetailsView> {
     }
     
     @objc private func showArtistDetails() {
-        
+        if let artistId = self.artistId {
+            let artistDetailsViewController  = ArtistDetailsViewController(artistId: artistId, dependencies: self.dependencies)
+            navigationController?.pushViewController(artistDetailsViewController, animated: true)
+
+        }
     }
 }

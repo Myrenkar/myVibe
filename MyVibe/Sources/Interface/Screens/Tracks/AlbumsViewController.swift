@@ -61,7 +61,6 @@ final class AlbumsViewController: ViewController<AlbumsView>, UITableViewDataSou
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedItem = albums[indexPath.row]
-        
         let trackDetailsViewController = TrackDetailsVieWController(trackId: selectedItem.id, dependencies: self.dependencies)
         navigationController?.pushViewController(trackDetailsViewController, animated: true)
     }
@@ -71,6 +70,7 @@ final class AlbumsViewController: ViewController<AlbumsView>, UITableViewDataSou
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         guard let searchBarText = searchBar.text else { return }
         albumTitle  = searchBarText
+        albums.removeAll()
         getAlbums(withTitle: searchBarText, page: 1)
         currentPage = 1
     }

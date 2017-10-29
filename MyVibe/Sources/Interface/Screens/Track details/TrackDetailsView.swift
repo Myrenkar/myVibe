@@ -17,14 +17,14 @@ final class TrackDetailsView: View {
         return imageView
     }()
     
-    lazy var titleLabel: UILabel = {
+    private(set) lazy var titleLabel: UILabel = {
         let titleLabel = UILabel()
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         titleLabel.font = .systemFont(ofSize: 17)
         return titleLabel
     }()
     
-    lazy var stylesLabel: UILabel = {
+    private(set) lazy var stylesLabel: UILabel = {
         let stylesLabel = UILabel()
         stylesLabel.translatesAutoresizingMaskIntoConstraints = false
         stylesLabel.font = .systemFont(ofSize: 13)
@@ -32,13 +32,13 @@ final class TrackDetailsView: View {
         return stylesLabel
     }()
  
-    lazy var yearLabel: UILabel = {
+    private(set) lazy var yearLabel: UILabel = {
         let typeLabel = UILabel()
         typeLabel.translatesAutoresizingMaskIntoConstraints = false
         return typeLabel
     }()
     
-    lazy var artistsButton: UIButton = {
+    private(set) lazy var artistsButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.titleLabel?.font = UIFont.systemFont(ofSize: 17)

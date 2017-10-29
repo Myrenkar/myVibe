@@ -34,6 +34,10 @@
 		731B6B8F1FA5FFA400C6D30E /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B8E1FA5FFA400C6D30E /* Artist.swift */; };
 		731B6B911FA6066100C6D30E /* ReleaseRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B901FA6066100C6D30E /* ReleaseRequestTests.swift */; };
 		731B6B931FA606E900C6D30E /* ArtistRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B921FA606E900C6D30E /* ArtistRequests.swift */; };
+		731B6B961FA60A0D00C6D30E /* ArtistDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B951FA60A0D00C6D30E /* ArtistDetailsViewController.swift */; };
+		731B6B981FA60A1800C6D30E /* ArtistDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B971FA60A1800C6D30E /* ArtistDetailsView.swift */; };
+		731B6B9A1FA60C4200C6D30E /* ArtistDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B991FA60C4200C6D30E /* ArtistDetails.swift */; };
+		731B6B9E1FA60D0700C6D30E /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B9D1FA60D0700C6D30E /* Member.swift */; };
 		7339A3201FA4E347003524F2 /* RemoteImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339A31F1FA4E347003524F2 /* RemoteImageDownloader.swift */; };
 		73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */; };
 		73B67AFA1FA1F4F600C47C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B67AF91FA1F4F600C47C00 /* Assets.xcassets */; };
@@ -99,6 +103,10 @@
 		731B6B8E1FA5FFA400C6D30E /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		731B6B901FA6066100C6D30E /* ReleaseRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseRequestTests.swift; sourceTree = "<group>"; };
 		731B6B921FA606E900C6D30E /* ArtistRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRequests.swift; sourceTree = "<group>"; };
+		731B6B951FA60A0D00C6D30E /* ArtistDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsViewController.swift; sourceTree = "<group>"; };
+		731B6B971FA60A1800C6D30E /* ArtistDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsView.swift; sourceTree = "<group>"; };
+		731B6B991FA60C4200C6D30E /* ArtistDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetails.swift; sourceTree = "<group>"; };
+		731B6B9D1FA60D0700C6D30E /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		7339A31F1FA4E347003524F2 /* RemoteImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageDownloader.swift; sourceTree = "<group>"; };
 		73B67AEF1FA1F4F500C47C00 /* MyVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -238,6 +246,36 @@
 			path = Abstract;
 			sourceTree = "<group>";
 		};
+		731B6B941FA609EF00C6D30E /* Artist */ = {
+			isa = PBXGroup;
+			children = (
+				731B6B951FA60A0D00C6D30E /* ArtistDetailsViewController.swift */,
+				731B6B971FA60A1800C6D30E /* ArtistDetailsView.swift */,
+			);
+			path = Artist;
+			sourceTree = "<group>";
+		};
+		731B6B9B1FA60C8D00C6D30E /* Artists */ = {
+			isa = PBXGroup;
+			children = (
+				731B6B8E1FA5FFA400C6D30E /* Artist.swift */,
+				731B6B991FA60C4200C6D30E /* ArtistDetails.swift */,
+				731B6B9D1FA60D0700C6D30E /* Member.swift */,
+				731B6B8C1FA5FF2F00C6D30E /* Release.swift */,
+			);
+			path = Artists;
+			sourceTree = "<group>";
+		};
+		731B6B9C1FA60CA500C6D30E /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				731882C51FA22D3600D9D865 /* Album.swift */,
+				73DF080C1FA24D960013C53A /* AlbumResponse.swift */,
+				73DF080A1FA2349E0013C53A /* Pagination.swift */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
 		7339A31E1FA4DEA3003524F2 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,6 +390,7 @@
 		73B67B181FA1F5E600C47C00 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				731B6B941FA609EF00C6D30E /* Artist */,
 				731882AA1FA20EB600D9D865 /* Tracks */,
 				730FC1401FA3DB2600F5C9F9 /* Track details */,
 			);
@@ -429,12 +468,9 @@
 		73B815031FA200D3006E4C23 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				731B6B9C1FA60CA500C6D30E /* Album */,
 				731882C41FA22D2200D9D865 /* Abstract */,
-				731882C51FA22D3600D9D865 /* Album.swift */,
-				73DF080A1FA2349E0013C53A /* Pagination.swift */,
-				73DF080C1FA24D960013C53A /* AlbumResponse.swift */,
-				731B6B8C1FA5FF2F00C6D30E /* Release.swift */,
-				731B6B8E1FA5FFA400C6D30E /* Artist.swift */,
+				731B6B9B1FA60C8D00C6D30E /* Artists */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -607,6 +643,7 @@
 				731B6B8D1FA5FF2F00C6D30E /* Release.swift in Sources */,
 				730FC13D1FA3761E00F5C9F9 /* Keys.swift in Sources */,
 				731882A61FA20DD400D9D865 /* ViewController.swift in Sources */,
+				731B6B9A1FA60C4200C6D30E /* ArtistDetails.swift in Sources */,
 				73B814F71FA1FE8F006E4C23 /* APIService.swift in Sources */,
 				73DF082E1FA262B50013C53A /* APIQueryParameter.swift in Sources */,
 				73DF08331FA30F4C0013C53A /* MyVibeKeys.m in Sources */,
@@ -633,10 +670,13 @@
 				731882C11FA2204300D9D865 /* AlbumRequest.swift in Sources */,
 				73DF08131FA253800013C53A /* Foundation.String.swift in Sources */,
 				73B815051FA200DC006E4C23 /* Result.swift in Sources */,
+				731B6B981FA60A1800C6D30E /* ArtistDetailsView.swift in Sources */,
 				73B815091FA2016C006E4C23 /* Foundation.URLRequest.swift in Sources */,
 				73B814F51FA1FE47006E4C23 /* APIClient.swift in Sources */,
+				731B6B961FA60A0D00C6D30E /* ArtistDetailsViewController.swift in Sources */,
 				73B814FB1FA1FEB9006E4C23 /* APIResponse.swift in Sources */,
 				73DF08111FA2534F0013C53A /* UIKit.UIAlertAction.swift in Sources */,
+				731B6B9E1FA60D0700C6D30E /* Member.swift in Sources */,
 				731B6B8F1FA5FFA400C6D30E /* Artist.swift in Sources */,
 				73B814FD1FA1FEFB006E4C23 /* APIError.swift in Sources */,
 				730FC1441FA3DBFB00F5C9F9 /* TrackDetailsView.swift in Sources */,
