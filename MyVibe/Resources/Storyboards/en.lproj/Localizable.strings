@@ -6,7 +6,10 @@
   Copyright © 2017 SmartApps. All rights reserved.
 */
 
+"general.error.title" = "Error";
+
 "ui_alert_action.ok" = "OK";
 "searchbar.placeholder" = "Search for favourite album";
+
 "albums.title" = "Albums";
-"general.error.title" = "Error";
+"albums.artist_button.title" = "See artist's details";

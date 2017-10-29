@@ -33,6 +33,7 @@
 		731B6B8D1FA5FF2F00C6D30E /* Release.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B8C1FA5FF2F00C6D30E /* Release.swift */; };
 		731B6B8F1FA5FFA400C6D30E /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B8E1FA5FFA400C6D30E /* Artist.swift */; };
 		731B6B911FA6066100C6D30E /* ReleaseRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B901FA6066100C6D30E /* ReleaseRequestTests.swift */; };
+		731B6B931FA606E900C6D30E /* ArtistRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6B921FA606E900C6D30E /* ArtistRequests.swift */; };
 		7339A3201FA4E347003524F2 /* RemoteImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339A31F1FA4E347003524F2 /* RemoteImageDownloader.swift */; };
 		73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */; };
 		73B67AFA1FA1F4F600C47C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B67AF91FA1F4F600C47C00 /* Assets.xcassets */; };
@@ -97,6 +98,7 @@
 		731B6B8C1FA5FF2F00C6D30E /* Release.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Release.swift; sourceTree = "<group>"; };
 		731B6B8E1FA5FFA400C6D30E /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		731B6B901FA6066100C6D30E /* ReleaseRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseRequestTests.swift; sourceTree = "<group>"; };
+		731B6B921FA606E900C6D30E /* ArtistRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRequests.swift; sourceTree = "<group>"; };
 		7339A31F1FA4E347003524F2 /* RemoteImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageDownloader.swift; sourceTree = "<group>"; };
 		73B67AEF1FA1F4F500C47C00 /* MyVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B67AF21FA1F4F600C47C00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -455,6 +457,7 @@
 			isa = PBXGroup;
 			children = (
 				731882C01FA2204300D9D865 /* AlbumRequest.swift */,
+				731B6B921FA606E900C6D30E /* ArtistRequests.swift */,
 				731B6B8A1FA5FEB900C6D30E /* ReleasesRequest.swift */,
 			);
 			path = Requests;
@@ -612,6 +615,7 @@
 				7339A3201FA4E347003524F2 /* RemoteImageDownloader.swift in Sources */,
 				73B67AF31FA1F4F600C47C00 /* AppDelegate.swift in Sources */,
 				73B8150A1FA2016F006E4C23 /* Foundation.URLComponents.swift in Sources */,
+				731B6B931FA606E900C6D30E /* ArtistRequests.swift in Sources */,
 				731882AE1FA20EEA00D9D865 /* AlbumsView.swift in Sources */,
 				73B814FA1FA1FEB9006E4C23 /* APIRequest.swift in Sources */,
 				731882B81FA21C8100D9D865 /* AlbumCell.swift in Sources */,

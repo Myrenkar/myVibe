@@ -27,6 +27,11 @@ final class TrackDetailsVieWController: ViewController<TrackDetailsView> {
         getDetails()
     }
     
+    override func setupProperties() {
+        super.setupProperties()
+        customView.artistsButton.addTarget(self, action: #selector(showArtistDetails), for: .touchUpInside)
+    }
+    
     private func getDetails() {
         dependencies.apiClient.perform(request: ReleasesRequest(releaseId: self.trackId)) { [unowned self] result in
             switch result {
@@ -66,10 +71,16 @@ final class TrackDetailsVieWController: ViewController<TrackDetailsView> {
         imageDownloader.downloadImage(withURL: url, completionHandler: { [unowned self] result in
             switch result {
                 case .success(let image):
-                    self.customView.imageView.image = image
+                    DispatchQueue.main.async {
+                        self.customView.imageView.image = image
+                    }
                 default:
                     break
             }
         })
+    }
+    
+    @objc private func showArtistDetails() {
+        
     }
 }

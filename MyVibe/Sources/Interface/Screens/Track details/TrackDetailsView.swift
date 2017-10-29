@@ -9,7 +9,7 @@
 import UIKit
 
 final class TrackDetailsView: View {
-    lazy var imageView: UIImageView = {
+    private(set) lazy var imageView: UIImageView = {
         let imageView = UIImageView(frame: .zero)
         imageView.image = #imageLiteral(resourceName: "cover-default")
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -38,9 +38,18 @@ final class TrackDetailsView: View {
         return typeLabel
     }()
     
+    lazy var artistsButton: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 17)
+        button.setTitleColor(.purple, for: .normal)
+        button.setTitle(.localized("albums.artist_button.title"), for: .normal)
+        return button
+    }()
+    
     override func setupViewHierarchy() {
         super.setupViewHierarchy()
-        [imageView, titleLabel, stylesLabel, yearLabel].forEach(addSubview)
+        [imageView, titleLabel, stylesLabel, yearLabel, artistsButton].forEach(addSubview)
     }
     
     override func setupLayoutConstraints() {
@@ -62,7 +71,11 @@ final class TrackDetailsView: View {
             
             stylesLabel.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor, constant: 8),
             stylesLabel.trailingAnchor.constraint(equalTo: layoutMarginsGuide.trailingAnchor),
-            stylesLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 8)
+            stylesLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 8),
+            
+            artistsButton.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor, constant: 8),
+            artistsButton.trailingAnchor.constraint(equalTo: layoutMarginsGuide.trailingAnchor),
+            artistsButton.topAnchor.constraint(equalTo: stylesLabel.bottomAnchor, constant: 8)
         ])
     }
 }
