@@ -34,12 +34,9 @@ final class AlbumResponseTest: XCTestCase {
     }
     
     func testProperties() {
-        XCTAssertEqual(sut.pagination.perPage, 50)
         XCTAssertEqual(sut.pagination.pages, 13)
         XCTAssertEqual(sut.pagination.page, 1)
         XCTAssertEqual(sut.pagination.items, 626)
-        XCTAssertEqual(sut.pagination.urls.last, "https://api.discogs.com/database/search?track=kylie&per_page=50&page=13")
-        XCTAssertEqual(sut.pagination.urls.next, "https://api.discogs.com/database/search?track=kylie&per_page=50&page=2")
         XCTAssertEqual(sut.albums.isEmpty, false)
         XCTAssertEqual(sut.albums.first!.title, "Akcent - Kylie")
         XCTAssertEqual(sut.albums.first!.id, 1240341)
